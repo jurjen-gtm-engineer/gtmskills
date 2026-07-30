@@ -39,6 +39,23 @@ Then ask Claude Code to use the skill by name. Every skill states its required i
 | [`gtm-ai-brief`](./gtm-fit/gtm-ai-brief) | GTM Fit | Turns a recurring manual GTM task into a written, testable AI brief (Trigger / Inputs / Steps / Output / Guardrails) |
 | [`compound-growth-check`](./growth-and-moat/compound-growth-check) | Growth & Moat | Classifies your ARR trajectory (compounding / decaying) from 6+ quarters and places you on the 10-state growth ladder |
 | [`ai-use-case-gate`](./growth-and-moat/ai-use-case-gate) | Growth & Moat | Go/no-go gate for AI builds in GTM: constraint check, ship gate, capability-ladder placement, guardrails |
+| [`icp-agent`](./product-market-fit/icp-agent) | Product-Market Fit | Red/Yellow/Green ICP definition with a weighted scoring model |
+| [`icp-objection-mapping`](./product-market-fit/icp-objection-mapping) | Product-Market Fit | Role-plays your skeptical ICP before campaigns, so objections get preempted in the copy |
+| [`conversational-intelligence`](./product-market-fit/conversational-intelligence) | Product-Market Fit | Structured intelligence from call transcripts: handoff, competitive, expansion, closed-lost |
+| [`blueprint-swarm`](./product-market-fit/blueprint-swarm) | Product-Market Fit | Parallel sub-agent analysis of hundreds of calls/records with an adversarial hallucination auditor |
+| [`meeting-prep`](./gtm-fit/meeting-prep) | GTM Fit | Discovery-call prep: research, fit assessment, SPICED hypotheses, six non-negotiable questions |
+| [`battlecard-builder`](./gtm-fit/battlecard-builder) | GTM Fit | Competitive battlecard in 30 minutes |
+| [`research-playbook`](./gtm-fit/research-playbook) | GTM Fit | The 10-minute per-prospect signal research method |
+| [`qa-checklist`](./gtm-fit/qa-checklist) | GTM Fit | Ship-ready cold email QA standard with scoring |
+| [`follow-up-sequences`](./gtm-fit/follow-up-sequences) | GTM Fit | Multi-touch sequence strategy with value-prop rotation |
+| [`claygent-prompt-generator`](./gtm-fit/claygent-prompt-generator) | GTM Fit | Cache-optimized Claygent prompts that cut per-row enrichment cost |
+| [`claygent-builder`](./gtm-fit/claygent-builder) | GTM Fit | Builds and tests Claygent enrichment agents end to end |
+| [`epistemic-context-grounding`](./growth-and-moat/epistemic-context-grounding) | Growth & Moat | Ground decisions in verified domain knowledge before designing (by Jacob Dietle, MIT) |
+| [`context-gap-analysis`](./growth-and-moat/context-gap-analysis) | Growth & Moat | Enumerate required context and verify it exists before acting (by Jacob Dietle, MIT) |
+
+## Sibling repos
+
+Two more of our skill libraries are already public and complement this one: [coldoutboundskills](https://github.com/growthenginenowoslawski/coldoutboundskills) (30 skills for cold outbound: domain setup, list building, deliverability, campaign craft) and its companion ABM library abxskills (13 skills for account-based engines). Skills that live there are not duplicated here.
 
 More coming. The roadmap follows the stage folders: each gets skills for its diagnostic, its data foundation, and its highest-leverage plays.
 
