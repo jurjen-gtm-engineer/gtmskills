@@ -12,5 +12,6 @@ Skills for the stage where you build a repeatable, profitable sales motion. GTM 
 | [`claygent-prompt-generator`](./claygent-prompt-generator) | Generates cache-optimized Claygent prompts: static logic first, variables at the bottom, cutting per-row cost | Available |
 | [`claygent-builder`](./claygent-builder) | Builds and tests Claygent enrichment agents end to end, including webhook test templates | Available |
 | [`gtm-ai-brief`](./gtm-ai-brief) | Turns a recurring manual GTM task into a written, testable AI brief (Trigger / Inputs / Steps / Output / Guardrails), tested on synthetic data before it ships | Available |
+| [`playbook-generator`](./playbook-generator) | Cannonball GTM playbook engine: a 6-phase workflow (research, EDP analysis, segment scoring, data source discovery, play generation, scoring and assembly) that produces intelligence-driven PQS/PVP playbooks. Methodology based on Jordan Crawford (Blueprint GTM); engine only, no example playbooks | Available |
 
 Also relevant at this stage: [`spiced-call-scorecard`](../assessments/spiced-call-scorecard) and [`crm-scorecard`](../assessments/crm-scorecard) in the assessments folder.

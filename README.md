@@ -35,6 +35,7 @@ Then ask Claude Code to use the skill by name. Every skill states its required i
 | [`bowtie-benchmark`](./assessments/bowtie-benchmark) | Assessments | Your 12 funnel metrics against CR1-CR8 benchmarks for your ACV band, with a per-metric leak diagnosis |
 | [`crm-scorecard`](./assessments/crm-scorecard) | Assessments | Computes CR1-CR8 from your actual CRM export (any CRM), cohort-first, benchmarked, with a data-quality preflight |
 | [`spiced-call-scorecard`](./assessments/spiced-call-scorecard) | Assessments | Scores call transcripts on the five SPICED dimensions 0-3 with verbatim evidence, plus team-level pattern analysis |
+| [`gtm-diagnostic`](./assessments/gtm-diagnostic) | Assessments | The full 5-week GTM diagnostic sprint: normalized bowtie, cohort-first CR1-CR8, Swiss-Cheese causal model, probabilistic forecast, and a 30-60-90 plan ordered by probability lift. Ships a complete fictional worked example |
 | [`customer-dossier`](./product-market-fit/customer-dossier) | Product-Market Fit | Builds a ground-truth customer dossier per account: one timeline, provenance on every field, conflicts surfaced. The foundation for ICP analysis |
 | [`gtm-ai-brief`](./gtm-fit/gtm-ai-brief) | GTM Fit | Turns a recurring manual GTM task into a written, testable AI brief (Trigger / Inputs / Steps / Output / Guardrails) |
 | [`compound-growth-check`](./growth-and-moat/compound-growth-check) | Growth & Moat | Classifies your ARR trajectory (compounding / decaying) from 6+ quarters and places you on the 10-state growth ladder |
@@ -50,6 +51,7 @@ Then ask Claude Code to use the skill by name. Every skill states its required i
 | [`follow-up-sequences`](./gtm-fit/follow-up-sequences) | GTM Fit | Multi-touch sequence strategy with value-prop rotation |
 | [`claygent-prompt-generator`](./gtm-fit/claygent-prompt-generator) | GTM Fit | Cache-optimized Claygent prompts that cut per-row enrichment cost |
 | [`claygent-builder`](./gtm-fit/claygent-builder) | GTM Fit | Builds and tests Claygent enrichment agents end to end |
+| [`playbook-generator`](./gtm-fit/playbook-generator) | GTM Fit | Cannonball GTM playbook engine: 6-phase EDP workflow producing intelligence-driven PQS/PVP playbooks (methodology by Jordan Crawford, Blueprint GTM; engine only) |
 | [`epistemic-context-grounding`](./growth-and-moat/epistemic-context-grounding) | Growth & Moat | Ground decisions in verified domain knowledge before designing (by Jacob Dietle, MIT) |
 | [`context-gap-analysis`](./growth-and-moat/context-gap-analysis) | Growth & Moat | Enumerate required context and verify it exists before acting (by Jacob Dietle, MIT) |
 
