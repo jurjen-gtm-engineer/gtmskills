@@ -89,3 +89,38 @@ This Quick Scan is directional: one question per subcategory. The hosted version
 ---
 
 *Scored on the 0-5 maturity scale: 0 non-existent, 1 ad-hoc, 2 developing, 3 defined, 4 managed, 5 optimized. Scores reflect current state as reported by the respondent, not verified evidence.*
+
+---
+
+## Deep Scan sections (only when the Deep Scan tier ran)
+
+### Subcategory heatmap
+
+All 24 subcategory scores in one table so the spread inside each domain is visible.
+
+| Domain | A | B | C |
+|---|---|---|---|
+| 1. ICP & Market Definition | {0.0} | {0.0} | {0.0} |
+| 2. Sales Process & Qualification | {0.0} | {0.0} | {0.0} |
+| 3. Messaging & Positioning | {0.0} | {0.0} | {0.0} |
+| 4. Pipeline & Revenue Metrics | {0.0} | {0.0} | {0.0} |
+| 5. Tech Stack & RevOps | {0.0} | {0.0} | {0.0} |
+| 6. Outbound & Demand Generation | {0.0} | {0.0} | {0.0} |
+| 7. Sales Enablement & Team | {0.0} | {0.0} | {0.0} |
+| 8. Growth Engine & Scalability | {0.0} | {0.0} | {0.0} |
+
+### Disagreement log
+
+Every question where participants disagreed by 2 or more points. Disagreement is a finding: it means the organization does not share one picture of reality.
+
+| Question | Positions | Settled score | Note |
+|---|---|---|---|
+| {Q2B.3} | {VP Sales: 4, RevOps: 1} | {2} | {why} |
+
+### Evidence appendix
+
+Per domain, the evidence and rationale captured per question. A scored answer with no evidence behind it is flagged: the score rests on opinion.
+
+#### Domain {n}: {name}
+
+- {Q1A.1}: score {n}. Evidence: {document, dashboard, example, or "none provided (flagged)"}

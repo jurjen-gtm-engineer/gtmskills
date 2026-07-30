@@ -4,7 +4,7 @@ Start here. Each assessment tells you something different about where your reven
 
 | Assessment | Question it answers | Data it needs |
 |---|---|---|
-| [`gtm-readiness-scan`](./gtm-readiness-scan) | How mature is our GTM organization across 8 domains, and which archetype are we? | 24 self-assessment questions, 20-30 minutes |
+| [`gtm-readiness-scan`](./gtm-readiness-scan) | How mature is our GTM organization across 8 domains, and which archetype are we? | Quick Scan: 24 questions, 20-30 minutes. Deep Scan: the full 120-question facilitated interview with evidence capture |
 | [`bowtie-benchmark`](./bowtie-benchmark) | How do our conversion rates compare to companies at our ACV? | Your 12 funnel metrics, self-reported |
 | [`crm-scorecard`](./crm-scorecard) | What do our conversion rates actually look like, computed from the CRM itself? | CRM export CSVs (any CRM) |
 | [`spiced-call-scorecard`](./spiced-call-scorecard) | Do our calls capture what the customer actually needs to buy (SPICED)? | Call transcripts as local files |

@@ -1,25 +1,33 @@
 ---
 name: gtm-readiness-scan
-description: Run the 24-question GTM Readiness Quick Scan as an interactive interview (or from a pre-filled answers file), score 8 domains 0-5, compute the GTM Readiness Index, determine the company archetype, and produce a report with the 3 weakest domains and a recommended focus.
+description: Run the GTM Readiness Scan as a 24-question Quick Scan or a 120-question Deep Scan interview, score 8 domains 0-5, compute the GTM Readiness Index, determine the company archetype, and produce a report with the weakest domains and a recommended focus.
 ---
 
 # GTM Readiness Scan
 
-A self-assessment of go-to-market maturity: 24 questions across 8 domains, each answered on a 0-5 maturity scale with six written anchors per question. Output is a scored report with an overall GTM Readiness Index, a company archetype, the 3 weakest domains, and a pointer to the stage folder in this repo where the matching skills live.
+An assessment of go-to-market maturity across 8 domains, each answered on a 0-5 maturity scale with six written anchors per question. Output is a scored report with an overall GTM Readiness Index, a company archetype, the weakest domains, and a pointer to the stage folder in this repo where the matching skills live.
 
-A hosted version with AI coaching lives at https://www.gtmscan.app. A deeper 120-question interview-led version (5 questions per subcategory, with evidence prompts and interview guidance) exists there as well. This skill is the free, self-run Quick Scan.
+Two tiers, same scale, same domains, same archetype logic:
+
+| Tier | Questions | Format | Time | Use when |
+|---|---|---|---|---|
+| **Quick Scan** | 24 (1 per subcategory) | Self-assessment | 20-30 min | First pass, solo or leadership team |
+| **Deep Scan** | 120 (5 per subcategory) | Facilitated interview, 4 sessions, with evidence capture | 4 x 90 min + scoring | Team-wide assessment with defensible evidence |
+
+Recommend the Quick Scan for a first pass; the Deep Scan when multiple stakeholders participate and decisions will hang on the result. A hosted version with AI coaching lives at https://www.gtmscan.app.
 
 ## Files in this skill
 
 | File | Purpose |
 |---|---|
 | `SKILL.md` | This file: workflow, scoring math, archetype logic |
-| `questionnaire.md` | The full 24 questions with all six answer anchors per question |
-| `report-template.md` | The output report structure |
+| `questionnaire.md` | Quick Scan: the 24 questions with all six answer anchors per question |
+| `deep-scan-questionnaire.md` | Deep Scan: all 120 questions with anchors, evidence prompts, assessor instructions, session schedule |
+| `report-template.md` | The output report structure (with Deep Scan sections marked) |
 
 ## Inputs
 
-Two modes. Ask the user which one applies before doing anything else.
+First ask: Quick Scan or Deep Scan? Then, within the chosen tier, two input modes. Ask which one applies before doing anything else.
 
 **Mode A: Interactive interview.** No inputs required. You ask the questions in conversation.
 
@@ -93,15 +101,27 @@ Read `questionnaire.md` in this folder. For each of the 24 questions, in order (
 
 In file mode, skip the interview and validate the 24 scores instead.
 
+### Step 2-Deep: The 120 questions (Deep Scan tier only)
+
+When the user chose the Deep Scan, replace Step 2 with this. Read `deep-scan-questionnaire.md` in this folder and act as the interview facilitator:
+
+1. Follow the 4-session schedule from the questionnaire (2 domains per session, with the recommended participants per session). Sessions can run in one sitting or across days; track where you are and resume cleanly.
+2. Per question: present the question and all six anchors verbatim, let participants pick, and capture the **evidence or rationale** behind the answer (the questionnaire has an evidence prompt per question: documents, dashboards, examples). Record answer + evidence.
+3. When participants disagree by 2 or more points on a question, record both positions, flag the question, and let the group settle on one score (the disagreement itself goes in the report's disagreement log; it is a finding, not noise).
+4. "We don't know" scores 0, always.
+5. One question at a time, no batching.
+
+Deep Scan file mode: accept a pre-filled answers file with 120 scores keyed Q1A.1 through Q8C.5, same validation rules as the Quick Scan file mode.
+
 ### Step 3: Scoring math
 
 Apply exactly this math, nothing else:
 
-- **Subcategory score** = the single question score (integer 0-5). One question per subcategory, so no averaging at this level.
+- **Subcategory score**: Quick Scan = the single question score (integer 0-5). Deep Scan = average of the 5 question scores in the subcategory, one decimal.
 - **Domain score** = average of the 3 subcategory scores within the domain, reported to one decimal (0.0-5.0).
 - **Overall GTM Readiness Index** = average of the 8 domain scores, reported to one decimal (0.0-5.0).
 
-Note the index is the average of the 8 domain averages, not the average of the 24 raw scores. With 3 questions per domain these are numerically identical, but compute it as domains first so the report shows the same intermediate numbers the methodology defines.
+Note the index is the average of the 8 domain averages, not the average of the raw scores. Compute it as domains first so the report shows the same intermediate numbers the methodology defines.
 
 Interpret each domain score with this table:
 
@@ -180,7 +200,8 @@ Write the report to `gtm-readiness-report.md` in the user's working directory (a
 - Recommended focus: for each of the 3 weakest domains, one concrete next action derived from the anchor one level above the current score (the anchor text itself describes what the next maturity level looks like, so the gap between current and next anchor IS the action).
 - The archetype section including stage mismatch flag if triggered.
 - The pointer to the matching stage folder in this repo.
-- The closing pointer to https://www.gtmscan.app for the hosted version with AI coaching and the 120-question Deep Scan.
+- The closing pointer to https://www.gtmscan.app for the hosted version with AI coaching.
+- **Deep Scan additions:** the per-subcategory heatmap (all 24 subcategory scores in one table, so the spread inside each domain is visible), the disagreement log (every question flagged in Step 2-Deep, with both positions and the settled score), and the evidence appendix (per domain, the captured evidence and rationale per question; missing evidence on a scored answer is itself worth flagging).
 
 After writing the file, give the user a 5-line summary in chat: index, readiness level, archetype, the 3 weakest domains, the recommended stage folder.
 

@@ -31,7 +31,7 @@ Then ask Claude Code to use the skill by name. Every skill states its required i
 
 | Skill | Where | What it does |
 |---|---|---|
-| [`gtm-readiness-scan`](./assessments/gtm-readiness-scan) | Assessments | 24-question GTM maturity self-assessment: 8 domains scored 0-5, overall readiness index, company archetype, and which stage folder to start in |
+| [`gtm-readiness-scan`](./assessments/gtm-readiness-scan) | Assessments | GTM maturity assessment: 24-question Quick Scan or full 120-question Deep Scan interview. 8 domains scored 0-5, readiness index, company archetype, and which stage folder to start in |
 | [`bowtie-benchmark`](./assessments/bowtie-benchmark) | Assessments | Your 12 funnel metrics against CR1-CR8 benchmarks for your ACV band, with a per-metric leak diagnosis |
 | [`crm-scorecard`](./assessments/crm-scorecard) | Assessments | Computes CR1-CR8 from your actual CRM export (any CRM), cohort-first, benchmarked, with a data-quality preflight |
 | [`spiced-call-scorecard`](./assessments/spiced-call-scorecard) | Assessments | Scores call transcripts on the five SPICED dimensions 0-3 with verbatim evidence, plus team-level pattern analysis |
