@@ -6,4 +6,4 @@ Skills for the stage where you are proving who to sell to and why they buy. PMF 
 
 | Skill | What it does | Status |
 |---|---|---|
-| `customer-dossier` | Builds a ground-truth customer profile from CRM, calls, and billing data | Coming |
+| [`customer-dossier`](./customer-dossier) | Builds a ground-truth customer profile per account from CRM, calls, billing, product, and support data: one timeline, provenance on every field, conflicts surfaced. The foundation for any ICP analysis | Available |

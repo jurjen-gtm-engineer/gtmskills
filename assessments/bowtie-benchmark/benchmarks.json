@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "name": "bowtie-benchmark",
+    "description": "Bowtie conversion benchmarks keyed to ACV band. Recreated from the Bowtie Standard (Winning by Design). Single source of truth for the bowtie-benchmark skill.",
+    "hosted_version": "https://bowtie-benchmarks.vercel.app",
+    "units": "All CR values are percentages. Cycle values are days."
+  },
+  "bands": {
+    "note": "Band is selected by average new deal size (ACV) in USD, after discounts. Index 0 through 5.",
+    "edges_usd": [1000, 5000, 15000, 50000, 150000],
+    "rule": "band 0 if acv < 1000; band 1 if acv < 5000; band 2 if acv < 15000; band 3 if acv < 50000; band 4 if acv < 150000; band 5 otherwise",
+    "labels": ["<$1k", "$1-5k", "$5-15k", "$15-50k", "$50-150k", "$150k+"]
+  },
+  "benchmarks_by_band": {
+    "CR1": [5, 10, 15, 20, 30, null],
+    "CR2": [15, 20, 20, 25, 25, null],
+    "CR3": [80, 85, 90, 95, 95, 100],
+    "CR4": [15, 17, 20, 25, 30, 35],
+    "CR5": [5, 8, 10, 12, 12, 15],
+    "CR6": [90, 92, 93, 94, 98, 99],
+    "CR7": [80, 83, 87, 90, 92, 95],
+    "CR8": [10, 15, 20, 22, 25, 30],
+    "CYCLE_days": ["<10", "10-20", "30-60", "60-90", "90-180", "180+"],
+    "CYCLE_days_midpoint": [10, 15, 45, 75, 135, 180]
+  },
+  "medians": {
+    "note": "Live-cohort medians, used when a metric has no ACV-keyed benchmark value (or the band value is null).",
+    "LTO": 8,
+    "OTC": 16,
+    "NRR": 102
+  },
+  "metrics": [
+    { "key": "cr1", "id": "CR1", "label": "Prospect to MQL", "higher_is_better": true, "unit": "%", "source": "band" },
+    { "key": "cr2", "id": "CR2", "label": "MQL to SQL", "higher_is_better": true, "unit": "%", "source": "band" },
+    { "key": "lto", "id": "LTO", "label": "Lead to Opportunity", "higher_is_better": true, "unit": "%", "source": "median" },
+    { "key": "cr3", "id": "CR3", "label": "Qualification / handoff", "higher_is_better": true, "unit": "%", "source": "band" },
+    { "key": "cr4", "id": "CR4", "label": "Win rate", "higher_is_better": true, "unit": "%", "source": "band" },
+    { "key": "otc", "id": "OTC", "label": "Opportunity to Close", "higher_is_better": true, "unit": "%", "source": "median" },
+    { "key": "salesCycle", "id": "CYCLE", "label": "Sales cycle", "higher_is_better": false, "unit": "days", "source": "cycle" },
+    { "key": "cr5", "id": "CR5", "label": "Median discount", "higher_is_better": false, "unit": "%", "source": "band" },
+    { "key": "cr6", "id": "CR6", "label": "Onboarding retained", "higher_is_better": true, "unit": "%", "source": "band" },
+    { "key": "cr7", "id": "CR7", "label": "Gross retention", "higher_is_better": true, "unit": "%", "source": "band" },
+    { "key": "cr8", "id": "CR8", "label": "Expansion rate", "higher_is_better": true, "unit": "%", "source": "band" },
+    { "key": "nrr", "id": "NRR", "label": "Net revenue retention", "higher_is_better": true, "unit": "%", "source": "median" }
+  ],
+  "scoring": {
+    "higher_is_better": {
+      "ahead": "value >= benchmark",
+      "near": "value >= benchmark * 0.8",
+      "behind": "otherwise"
+    },
+    "lower_is_better": {
+      "note": "Applies to sales cycle and discount.",
+      "ahead": "value <= benchmark",
+      "near": "value <= benchmark * 1.25",
+      "behind": "otherwise"
+    },
+    "neutral": "No benchmark available for this metric at this band, or the value could not be parsed. Neutral metrics never count toward the ahead/near/behind tally.",
+    "cycle_parsing": "Cycle benchmarks are ranges in days. Score against the midpoint: a range a-b scores against round((a+b)/2); '<10' scores against 10; '180+' scores against 180. If the user reports months, convert with days = round(months * 30.4)."
+  },
+  "derived": {
+    "implied_nrr": "CR7/100 * (1 + CR8/100) * 100. Only when both CR7 and CR8 are given and NRR is not.",
+    "ten_year_base_multiple": "(NRR/100)^10, the installed base multiple over 10 years before new logos.",
+    "lead_to_won_yield": "Product of the given values among CR1, CR2, CR3, CR4 (each /100), when 2 or more are given.",
+    "expected_new_logos": "leads * lead_to_won_yield, when a lead cohort size is given.",
+    "implied_new_arr": "expected_new_logos * acv"
+  }
+}

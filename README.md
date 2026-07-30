@@ -14,10 +14,7 @@ Across 50+ GTM diagnostics, Winning by Design found the standardized Operating M
 | **GTM Fit** | You have proof and now need a repeatable, profitable sales motion with unit economics that work | [`gtm-fit/`](./gtm-fit) |
 | **Growth & Moat** | The motion repeats and now you scale it, instrument it, and defend it | [`growth-and-moat/`](./growth-and-moat) |
 
-Not sure which stage you are in? Run the free assessments:
-
-- [GTM Scan](https://www.gtmscan.app): GTM readiness across 8 domains, 0-5 maturity per domain
-- [Bowtie Benchmarks](https://bowtie-benchmarks.vercel.app): your CR1-CR8 conversion rates against benchmarks for your ACV band
+Not sure which stage you are in? Start in [`assessments/`](./assessments): four assessments that run right here in Claude Code, or use the hosted versions: [GTM Scan](https://www.gtmscan.app) (readiness across 8 domains with AI coaching) and [Bowtie Benchmarks](https://bowtie-benchmarks.vercel.app) (CR1-CR8 against benchmarks for your ACV band).
 
 ## How to use
 
@@ -32,9 +29,16 @@ Then ask Claude Code to use the skill by name. Every skill states its required i
 
 ## Skills
 
-| Skill | Stage | What it does | Status |
-|---|---|---|---|
-| `customer-dossier` | Product-Market Fit | Builds a customer dossier from your CRM, calls, and billing data: the ground-truth profile that ICP analysis starts from | Coming |
+| Skill | Where | What it does |
+|---|---|---|
+| [`gtm-readiness-scan`](./assessments/gtm-readiness-scan) | Assessments | 24-question GTM maturity self-assessment: 8 domains scored 0-5, overall readiness index, company archetype, and which stage folder to start in |
+| [`bowtie-benchmark`](./assessments/bowtie-benchmark) | Assessments | Your 12 funnel metrics against CR1-CR8 benchmarks for your ACV band, with a per-metric leak diagnosis |
+| [`crm-scorecard`](./assessments/crm-scorecard) | Assessments | Computes CR1-CR8 from your actual CRM export (any CRM), cohort-first, benchmarked, with a data-quality preflight |
+| [`spiced-call-scorecard`](./assessments/spiced-call-scorecard) | Assessments | Scores call transcripts on the five SPICED dimensions 0-3 with verbatim evidence, plus team-level pattern analysis |
+| [`customer-dossier`](./product-market-fit/customer-dossier) | Product-Market Fit | Builds a ground-truth customer dossier per account: one timeline, provenance on every field, conflicts surfaced. The foundation for ICP analysis |
+| [`gtm-ai-brief`](./gtm-fit/gtm-ai-brief) | GTM Fit | Turns a recurring manual GTM task into a written, testable AI brief (Trigger / Inputs / Steps / Output / Guardrails) |
+| [`compound-growth-check`](./growth-and-moat/compound-growth-check) | Growth & Moat | Classifies your ARR trajectory (compounding / decaying) from 6+ quarters and places you on the 10-state growth ladder |
+| [`ai-use-case-gate`](./growth-and-moat/ai-use-case-gate) | Growth & Moat | Go/no-go gate for AI builds in GTM: constraint check, ship gate, capability-ladder placement, guardrails |
 
 More coming. The roadmap follows the stage folders: each gets skills for its diagnostic, its data foundation, and its highest-leverage plays.
 
