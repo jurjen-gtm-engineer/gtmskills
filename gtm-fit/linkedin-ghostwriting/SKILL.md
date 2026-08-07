@@ -1,5 +1,5 @@
 ---
-name: exec-linkedin-engine
+name: linkedin-ghostwriting
 description: Draft ranked LinkedIn post options for a founder or executive, grounded in fresh signal and gated against repetition. Use when someone asks "what should our CEO/founder post", "next posts for [exec]", "draft exec thought leadership", "a repost/reshare", or "an industry-news take" for a named executive. Produces 3 ranked, typed options per exec, each 6 lines or fewer, each with an attachment.
 ---
 
