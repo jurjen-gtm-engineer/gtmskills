@@ -1,5 +1,5 @@
 ---
-name: anti-slop
+name: anti-ai-slop-writing
 description: Strip AI tells from any GTM prose and hold a real human voice. Use whenever writing, editing, rewriting, or polishing copy - LinkedIn posts, ad copy, cold emails, articles, thought leadership, case studies, decks - and when someone says "make this less AI", "sound less robotic", "remove the AI tells", or "de-AI this". Runs a two-pass self-check before any prose is returned.
 ---
 
