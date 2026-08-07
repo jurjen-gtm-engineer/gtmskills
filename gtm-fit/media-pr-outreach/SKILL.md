@@ -1,5 +1,5 @@
 ---
-name: journalist-outreach
+name: media-pr-outreach
 description: Write journalist outreach that gets replies - first contact, news pitch, byline pitch, or reactive pitch. Use when doing PR or earned-media outreach, building a reporter list, anchoring a pitch to a recent article, or responding to breaking news in your space. Enforces an anchor rule, a them:us ratio, and a give-plus-ask close, and routes every draft through a review gate.
 ---
 
