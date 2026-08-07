@@ -36,7 +36,7 @@ A repeatable engine for founder- and executive-led LinkedIn content. It exists t
 
 **5. Messenger / lane fit (hard check on shares and reshares).** The exec must plausibly follow that source and their audience must care about it - not just "is the argument sound". Route the peg to the exec whose lane it is (regulatory to the policy voice, product/build to the builder, numbers/valuation to the finance voice). A finance exec commenting on a niche UX article is a stretch even when the angle is real.
 
-**6. Draft in voice, then two finishing passes.** Draft each option 6 lines or fewer against the voice card and closest real samples. Then run: (a) the `anti-slop` skill to strip AI tells, and (b) the `human-mannerisms` skill to add at least one real human move (a mid-sentence aside, an undercut, an oddly-specific real detail) calibrated to the exec's voice. One or two moves, never invented detail.
+**6. Draft in voice, then two finishing passes.** Draft each option 6 lines or fewer against the voice card and closest real samples. Then run: (a) the `anti-ai-slop-writing` skill to strip AI tells, and (b) the `human-mannerisms` skill to add at least one real human move (a mid-sentence aside, an undercut, an oddly-specific real detail) calibrated to the exec's voice. One or two moves, never invented detail.
 
 **7. Tone gate.** Read each draft against the voice card: does it sound like this exec, not generic industry copy, and will it get read (fold, scannability, no wall of text). Explicitly flag marketer / ad-copy lines and deadline / urgency-pitch closers, not just AI slop. A clean-but-flat post with zero human moves is a fail, not a pass.
 
@@ -54,4 +54,4 @@ Post or reshare externally on the exec's behalf. Name a client without clearance
 
 ---
 
-*Author: Gali (Kidoz Inc.). Contributed under the MIT License. Requires the `anti-slop` and `human-mannerisms` skills for the finishing passes.*
+*Author: Gali (Kidoz Inc.). Contributed under the MIT License. Requires the `anti-ai-slop-writing` and `human-mannerisms` skills for the finishing passes.*

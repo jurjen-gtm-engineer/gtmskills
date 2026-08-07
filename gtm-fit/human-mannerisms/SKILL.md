@@ -1,15 +1,15 @@
 ---
 name: human-mannerisms
-description: Add human texture to GTM prose so it reads as one specific person, not a competent machine. The positive companion to the anti-slop skill. Use after de-AI-ing any copy - LinkedIn posts, thought leadership, cold emails, articles - and when a piece is clean but voiceless, flat, or "technically fine but nobody's home".
+description: Add human texture to GTM prose so it reads as one specific person, not a competent machine. The positive companion to the anti-ai-slop-writing skill. Use after de-AI-ing any copy - LinkedIn posts, thought leadership, cold emails, articles - and when a piece is clean but voiceless, flat, or "technically fine but nobody's home".
 ---
 
 # Human Writing Mannerisms
 
-The positive companion to the `anti-slop` skill. Anti-slop is a list of things to strip; this is a library of moves to add - the small, deliberate quirks that make writing read as one specific human.
+The positive companion to the `anti-ai-slop-writing` skill. Anti-ai-slop-writing is a list of things to strip; this is a library of moves to add - the small, deliberate quirks that make writing read as one specific human.
 
-Anti-slop gets copy to zero: nothing screams AI. This gets it above zero: a person is clearly in the room. Both matter, because clean copy with no texture still reads as AI. "Flawless and flat" is itself the tell.
+Anti-ai-slop-writing gets copy to zero: nothing screams AI. This gets it above zero: a person is clearly in the room. Both matter, because clean copy with no texture still reads as AI. "Flawless and flat" is itself the tell.
 
-**How to use:** run the anti-slop passes first (strip the tells). Then read the piece once more and ask - is there at least one moment where a real person is visibly here? If the whole thing is smooth and voiceless, pull one or two moves from below. Do not paste all of them in. A piece stuffed with quirks reads as try-hard, which is its own kind of slop. One or two earned moments per piece. Order matters: strip first, then add.
+**How to use:** run the anti-ai-slop-writing passes first (strip the tells). Then read the piece once more and ask - is there at least one moment where a real person is visibly here? If the whole thing is smooth and voiceless, pull one or two moves from below. Do not paste all of them in. A piece stuffed with quirks reads as try-hard, which is its own kind of slop. One or two earned moments per piece. Order matters: strip first, then add.
 
 ---
 
@@ -33,7 +33,7 @@ Reach for the weirdly exact, true detail instead of the smooth generic one. Not 
 - "Fill rate dropped the Tuesday after the holiday, 11%, and nobody noticed until Thursday."
 - "The winning ad had a llama in it. I don't know why. It just did."
 
-**Guardrail:** this move uses only real detail you actually have. Specificity you own reads as lived; specificity you invent reads as fraud. Fabricated specifics are still banned by anti-slop.
+**Guardrail:** this move uses only real detail you actually have. Specificity you own reads as lived; specificity you invent reads as fraud. Fabricated specifics are still banned by anti-ai-slop-writing.
 
 ### 4. Short. Then shorter.
 Vary sentence length hard. Follow a long, winding sentence with a two-word one. Let a fragment stand for rhythm. Rhythm is how a voice sounds out loud.
@@ -66,7 +66,7 @@ State something ridiculous or frustrating in a flat, casual tone. No exclamation
 
 - **Not a checklist to apply all at once.** One or two moves per piece. A wall of quirks is try-hard slop.
 - **Not a licence to invent.** Move 3 uses only real, true detail.
-- **Not a replacement for anti-slop.** Strip the tells first, then add the texture. Order matters.
+- **Not a replacement for anti-ai-slop-writing.** Strip the tells first, then add the texture. Order matters.
 
 ---
 

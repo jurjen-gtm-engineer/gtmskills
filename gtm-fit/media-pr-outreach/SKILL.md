@@ -21,7 +21,7 @@ A method for founder- and operator-led earned media. Most cold pitches to journa
 3. **The them:us ratio.** Count sentences about their readers / the story vs sentences about you. Target 3:1 minimum. If it's 1:1, rewrite.
 4. **Give-plus-ask close.** Never open or close with "happy to be a source". Offer something concrete (a specific quote, a data point, an exclusive angle, a draft) and make one clear, low-effort ask. The give earns the ask.
 5. **One reporter per outlet per story.** Never pitch competing reporters at the same outlet simultaneously. Match the angle to the publication.
-6. **Run the copy through anti-slop.** Apply the `anti-slop` and `human-mannerisms` skills to every draft. A pitch should read like one person emailing another, not a machine performing an intro.
+6. **Run the copy through anti-ai-slop-writing.** Apply the `anti-ai-slop-writing` and `human-mannerisms` skills to every draft. A pitch should read like one person emailing another, not a machine performing an intro.
 
 ## Structures
 
@@ -55,7 +55,7 @@ Follow them. Engage genuinely with 1-2 recent posts (something real, not "great 
 
 ## The review gate (every draft)
 
-Nothing ships as "final" until it clears one independent read for: is it anchored to a real recent piece with a URL, does it pass the them:us ratio, is the close a real give-plus-ask, and is the copy clean (anti-slop, no house-banned words, sounds like a person). One revision round, max. Strip any internal process language before it reaches the journalist.
+Nothing ships as "final" until it clears one independent read for: is it anchored to a real recent piece with a URL, does it pass the them:us ratio, is the close a real give-plus-ask, and is the copy clean (anti-ai-slop-writing, no house-banned words, sounds like a person). One revision round, max. Strip any internal process language before it reaches the journalist.
 
 ## Track and follow up
 
@@ -70,4 +70,4 @@ Log every outreach: name, publication, date, type, response status. Follow up on
 
 ---
 
-*Author: Gali (Kidoz Inc.). Contributed under the MIT License. Requires the `anti-slop` and `human-mannerisms` skills for the copy pass.*
+*Author: Gali (Kidoz Inc.). Contributed under the MIT License. Requires the `anti-ai-slop-writing` and `human-mannerisms` skills for the copy pass.*
