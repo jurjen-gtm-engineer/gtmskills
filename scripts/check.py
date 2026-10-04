@@ -54,6 +54,8 @@ for slug in folders:
         err(f"{slug}: no description")
     elif len(desc.group(1)) > 1024:
         err(f"{slug}: description is over 1,024 characters")
+    elif not desc.group(1).startswith(('"', "'")) and (": " in desc.group(1) or " #" in desc.group(1)):
+        err(f"{slug}: description has ': ' or ' #' and must be quoted, or YAML parsers skip the skill")
 
 # Publication sweep over everything that ships.
 TEXT = {".md", ".py", ".json", ".jsonl", ".txt", ".yaml", ".yml", ".csv", ".ts", ".sh"}

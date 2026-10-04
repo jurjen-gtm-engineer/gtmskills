@@ -1,6 +1,6 @@
 ---
 name: icp-agent
-description: Define, refine, and validate an Ideal Customer Profile using the Science of Scaling framework. Two modes: Quick Start (structured analysis from inputs) or Deep Dive (CRM data analysis with scoring model).
+description: "Define, refine, and validate an Ideal Customer Profile using the Science of Scaling framework. Two modes: Quick Start (structured analysis from inputs) or Deep Dive (CRM data analysis with scoring model)."
 ---
 
 # Skill: ICP Agent

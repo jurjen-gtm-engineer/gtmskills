@@ -1,6 +1,6 @@
 ---
 name: free-first-domain-resolver
-description: Resolve a list of company names to verified domains for a fraction of a cent per name instead of a per-row vendor fee. Runs a cost waterfall (owned Google Maps table and Google Knowledge Graph for free, then one cheap search, then Google Places) and verifies every domain against what the page declares about itself (title, Open Graph, JSON-LD), never the SSL certificate. Refuses to guess: anything it cannot confirm is flagged "needs review" instead of returning a confident wrong domain. Use when someone has a CSV of company names and needs domains (the same move works for LinkedIn URLs and parent companies). Based on Jordan Crawford's free-first resolver idea (Blueprint GTM). Not for finding contact emails or enriching people.
+description: "Resolve a list of company names to verified domains for a fraction of a cent per name instead of a per-row vendor fee. Runs a cost waterfall (owned Google Maps table and Google Knowledge Graph for free, then one cheap search, then Google Places) and verifies every domain against what the page declares about itself (title, Open Graph, JSON-LD), never the SSL certificate. Refuses to guess: anything it cannot confirm is flagged \"needs review\" instead of returning a confident wrong domain. Use when someone has a CSV of company names and needs domains (the same move works for LinkedIn URLs and parent companies). Based on Jordan Crawford's free-first resolver idea (Blueprint GTM). Not for finding contact emails or enriching people."
 metadata:
   version: "1.0"
 ---
