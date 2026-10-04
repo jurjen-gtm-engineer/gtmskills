@@ -1,0 +1,12 @@
+{
+  "_source": "WbD Outcome Seller webinar Aug 2026, source-case ranges. Replace with the client's own 90-day min/max/MODE pulled from the CRM.",
+  "bridge_strength": 1.0,
+  "team": {
+    "opps_per_month":        {"min": 6,     "mode": 8,     "max": 12},
+    "disqualification_rate": {"min": 0.12,  "mode": 0.20,  "max": 0.30},
+    "win_rate":              {"min": 0.11,  "mode": 0.15,  "max": 0.22},
+    "acv":                   {"min": 50000, "mode": 55000, "max": 60000, "dist": "triangular"},
+    "discount_rate":         {"min": 0.15,  "mode": 0.25,  "max": 0.35},
+    "sales_cycle_days":      {"min": 45,    "mode": 66,    "max": 90}
+  }
+}

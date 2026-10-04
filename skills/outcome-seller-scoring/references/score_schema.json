@@ -1,0 +1,266 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Outcome Seller call score",
+  "type": "object",
+  "required": [
+    "call_id",
+    "rep",
+    "date",
+    "call_type",
+    "duration_min",
+    "axes"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "call_id": {
+      "type": "string"
+    },
+    "rep": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "account": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "call_type": {
+      "enum": [
+        "discovery",
+        "qualification"
+      ]
+    },
+    "duration_min": {
+      "type": "number",
+      "minimum": 10
+    },
+    "segment": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "region": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "axes": {
+      "type": "object",
+      "required": [
+        "situation",
+        "pain",
+        "impact",
+        "critical_event",
+        "decision",
+        "second_question",
+        "customer_supplied_number",
+        "what_breaks",
+        "demo_pivot"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "situation": {
+          "$ref": "#/$defs/scored"
+        },
+        "pain": {
+          "$ref": "#/$defs/scored"
+        },
+        "impact": {
+          "$ref": "#/$defs/scored"
+        },
+        "critical_event": {
+          "$ref": "#/$defs/scored"
+        },
+        "decision": {
+          "$ref": "#/$defs/scored"
+        },
+        "second_question": {
+          "$ref": "#/$defs/observed"
+        },
+        "customer_supplied_number": {
+          "$ref": "#/$defs/observed"
+        },
+        "what_breaks": {
+          "$ref": "#/$defs/observed"
+        },
+        "demo_pivot": {
+          "$ref": "#/$defs/observed"
+        }
+      }
+    },
+    "coaching_note": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "One or two items maximum, constructive, tied to a behaviour. Never 'you didn't sound confident'."
+    },
+    "blind_spot": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "they_said",
+        "rep_said",
+        "should_have_said"
+      ],
+      "description": "The moment that cost the most on this call, in three lines.",
+      "properties": {
+        "they_said": {
+          "type": "string"
+        },
+        "rep_said": {
+          "type": "string"
+        },
+        "should_have_said": {
+          "type": "string"
+        },
+        "timestamp": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "strongest_moment": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "quote",
+        "why_it_worked"
+      ],
+      "description": "The thing the rep did well enough to run again, written so it can be handed to the team.",
+      "properties": {
+        "quote": {
+          "type": "string"
+        },
+        "why_it_worked": {
+          "type": "string"
+        },
+        "timestamp": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "crm_summary": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Clean SPICED summary ready to paste into CRM, plus the recommended next step."
+    }
+  },
+  "$defs": {
+    "scored": {
+      "type": "object",
+      "required": [
+        "score",
+        "quote",
+        "speaker"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "score": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 5,
+          "description": "null means not applicable and is excluded from the coverage denominator. A score of 1 IS in the denominator."
+        },
+        "na_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "quote": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Verbatim. REQUIRED for any score >= 3. Missing quote on a 3+ is a validation failure, not a data point."
+        },
+        "speaker": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Who said the quote. For impact, a customer speaker is required at score >= 3."
+        },
+        "timestamp": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "enum": [
+            "qualified",
+            "partial",
+            "gap",
+            null
+          ],
+          "description": "Deal-review layer on top of the coverage score (see spiced-rubric.md 'Two layers'). gap = score 1-2 or no quote; partial = 3+ but fails the axis 'Qualified when' test; qualified = 3+, passes the test, on a verbatim customer quote. null only when score is null."
+        },
+        "follow_up": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "The exact question that closes the gap, written the way the rep would send it. Required for partial or gap on impact, critical_event and decision."
+        }
+      }
+    },
+    "observed": {
+      "type": "object",
+      "required": [
+        "observed",
+        "quote"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "observed": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "quote": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "speaker": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "timestamp": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

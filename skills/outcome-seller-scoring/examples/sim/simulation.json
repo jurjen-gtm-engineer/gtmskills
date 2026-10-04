@@ -1,0 +1,413 @@
+{
+  "n_runs": 50000,
+  "seed": 42,
+  "config": "examples/sim_config.json",
+  "team_baseline": {
+    "mean": 45371.72812235226,
+    "pct_10": 33256.16344735487,
+    "pct_50": 44333.778053056674,
+    "pct_90": 58824.48010997654,
+    "floor_90pct_of_runs_clear": 33256.16344735487,
+    "upside_10pct_of_runs_exceed": 58824.48010997654,
+    "skew": 0.5427403057925146,
+    "mass_on_the_left": true
+  },
+  "sensitivity": {
+    "global_spearman": {
+      "opps_per_month": 0.6543,
+      "win_rate": 0.6433,
+      "discount_rate": -0.2431,
+      "disqualification_rate": -0.2028,
+      "acv": 0.1628
+    },
+    "excluded": {
+      "sales_cycle_days": 0.0065
+    },
+    "oat_swing_eur": {
+      "opps_per_month": 29700.0,
+      "win_rate": 29040.0,
+      "discount_rate": 10560.0,
+      "disqualification_rate": 8910.0,
+      "acv": 7200.0
+    },
+    "relative_spread_cv": {
+      "opps_per_month": 0.1438,
+      "disqualification_rate": 0.1781,
+      "win_rate": 0.1419,
+      "acv": 0.0372,
+      "discount_rate": 0.1632,
+      "sales_cycle_days": 0.1366
+    },
+    "agree": false,
+    "note": "Every term in the revenue identity is multiplicative, so this ranking is driven by each metric's RELATIVE spread (see relative_spread_cv). Guessed ranges produce a confident garbage ranking. sales_cycle_days is excluded: it is not in the monthly identity and acts only through the coverage bridge on opportunity volume."
+  },
+  "baseline_coverage": {
+    "impact": 0.2044,
+    "decision": 0.0418,
+    "critical_event": 0.277
+  },
+  "per_rep": {
+    "Rep A": {
+      "mean": 41453.663125203224,
+      "pct_10": 30398.658116594575,
+      "pct_50": 40460.23363379462,
+      "pct_90": 53898.00974959432,
+      "floor_90pct_of_runs_clear": 30398.658116594575,
+      "upside_10pct_of_runs_exceed": 53898.00974959432,
+      "skew": 0.5818158365245655,
+      "mass_on_the_left": true,
+      "bridge_multipliers": {
+        "acv": 0.9101,
+        "win_rate": 0.9935,
+        "sales_cycle_days": 1.0582,
+        "opps_per_month": 0.945
+      },
+      "coverage": {
+        "impact": 0.0,
+        "decision": 0.0,
+        "critical_event": 0.0
+      }
+    },
+    "Rep B": {
+      "mean": 41516.20730760549,
+      "pct_10": 30546.673768489512,
+      "pct_50": 40510.924601260835,
+      "pct_90": 53842.243639212706,
+      "floor_90pct_of_runs_clear": 30546.673768489512,
+      "upside_10pct_of_runs_exceed": 53842.243639212706,
+      "skew": 0.5875415296055556,
+      "mass_on_the_left": true,
+      "bridge_multipliers": {
+        "acv": 0.9101,
+        "win_rate": 0.9935,
+        "sales_cycle_days": 1.0582,
+        "opps_per_month": 0.945
+      },
+      "coverage": {
+        "impact": 0.0,
+        "decision": 0.0,
+        "critical_event": 0.0
+      }
+    },
+    "Rep C": {
+      "mean": 42423.13243087053,
+      "pct_10": 31224.51967926154,
+      "pct_50": 41391.72174926551,
+      "pct_90": 55011.3901785591,
+      "floor_90pct_of_runs_clear": 31224.51967926154,
+      "upside_10pct_of_runs_exceed": 55011.3901785591,
+      "skew": 0.5918665219686995,
+      "mass_on_the_left": true,
+      "bridge_multipliers": {
+        "acv": 0.9101,
+        "win_rate": 0.9935,
+        "sales_cycle_days": 1.0348,
+        "opps_per_month": 0.9664
+      },
+      "coverage": {
+        "impact": 0.0,
+        "decision": 0.0,
+        "critical_event": 0.1111
+      }
+    },
+    "Rep D": {
+      "mean": 44972.08879829002,
+      "pct_10": 33187.79741695122,
+      "pct_50": 43872.11260057319,
+      "pct_90": 58395.54227238299,
+      "floor_90pct_of_runs_clear": 33187.79741695122,
+      "upside_10pct_of_runs_exceed": 58395.54227238299,
+      "skew": 0.6031306652852886,
+      "mass_on_the_left": true,
+      "bridge_multipliers": {
+        "acv": 0.973,
+        "win_rate": 0.9935,
+        "sales_cycle_days": 0.9982,
+        "opps_per_month": 1.0018
+      },
+      "coverage": {
+        "impact": 0.1429,
+        "decision": 0.0,
+        "critical_event": 0.2857
+      }
+    },
+    "Rep E": {
+      "mean": 45403.820434914844,
+      "pct_10": 33404.85613535488,
+      "pct_50": 44304.09828814079,
+      "pct_90": 58963.07644187315,
+      "floor_90pct_of_runs_clear": 33404.85613535488,
+      "upside_10pct_of_runs_exceed": 58963.07644187315,
+      "skew": 0.609223646161308,
+      "mass_on_the_left": true,
+      "bridge_multipliers": {
+        "acv": 0.9501,
+        "win_rate": 0.9935,
+        "sales_cycle_days": 0.9818,
+        "opps_per_month": 1.0185
+      },
+      "coverage": {
+        "impact": 0.0909,
+        "decision": 0.0,
+        "critical_event": 0.3636
+      }
+    },
+    "Rep F": {
+      "mean": 42393.4439632794,
+      "pct_10": 31114.17991034048,
+      "pct_50": 41425.64498403596,
+      "pct_90": 55055.852025734,
+      "floor_90pct_of_runs_clear": 31114.17991034048,
+      "upside_10pct_of_runs_exceed": 55055.852025734,
+      "skew": 0.5593097098524018,
+      "mass_on_the_left": true,
+      "bridge_multipliers": {
+        "acv": 0.959,
+        "win_rate": 1.0107,
+        "sales_cycle_days": 1.0582,
+        "opps_per_month": 0.945
+      },
+      "coverage": {
+        "impact": 0.1111,
+        "decision": 0.1111,
+        "critical_event": 0.0
+      }
+    },
+    "Rep G": {
+      "mean": 46211.85215949896,
+      "pct_10": 34052.36305004144,
+      "pct_50": 45138.89787312222,
+      "pct_90": 59896.06173518267,
+      "floor_90pct_of_runs_clear": 34052.36305004144,
+      "upside_10pct_of_runs_exceed": 59896.06173518267,
+      "skew": 0.5839292822465817,
+      "mass_on_the_left": true,
+      "bridge_multipliers": {
+        "acv": 1.0421,
+        "win_rate": 0.9935,
+        "sales_cycle_days": 0.9952,
+        "opps_per_month": 1.0048
+      },
+      "coverage": {
+        "impact": 0.3,
+        "decision": 0.0,
+        "critical_event": 0.3
+      }
+    },
+    "Rep H": {
+      "mean": 46189.03019852607,
+      "pct_10": 33947.75629106564,
+      "pct_50": 45123.65460106937,
+      "pct_90": 59920.303243709415,
+      "floor_90pct_of_runs_clear": 33947.75629106564,
+      "upside_10pct_of_runs_exceed": 59920.303243709415,
+      "skew": 0.5634106883571464,
+      "mass_on_the_left": true,
+      "bridge_multipliers": {
+        "acv": 1.0201,
+        "win_rate": 0.9935,
+        "sales_cycle_days": 0.9882,
+        "opps_per_month": 1.0119
+      },
+      "coverage": {
+        "impact": 0.25,
+        "decision": 0.0,
+        "critical_event": 0.3333
+      }
+    },
+    "Rep I": {
+      "mean": 45482.313696232355,
+      "pct_10": 33479.45250700925,
+      "pct_50": 44376.989622291505,
+      "pct_90": 58987.78072109951,
+      "floor_90pct_of_runs_clear": 33479.45250700925,
+      "upside_10pct_of_runs_exceed": 58987.78072109951,
+      "skew": 0.5700873995165247,
+      "mass_on_the_left": true,
+      "bridge_multipliers": {
+        "acv": 0.9501,
+        "win_rate": 1.0076,
+        "sales_cycle_days": 0.9818,
+        "opps_per_month": 1.0185
+      },
+      "coverage": {
+        "impact": 0.0909,
+        "decision": 0.0909,
+        "critical_event": 0.3636
+      }
+    },
+    "Rep J": {
+      "mean": 49690.78247256462,
+      "pct_10": 36503.532308672235,
+      "pct_50": 48580.941757440014,
+      "pct_90": 64525.414077134956,
+      "floor_90pct_of_runs_clear": 36503.532308672235,
+      "upside_10pct_of_runs_exceed": 64525.414077134956,
+      "skew": 0.565267562995703,
+      "mass_on_the_left": true,
+      "bridge_multipliers": {
+        "acv": 1.1154,
+        "win_rate": 1.0142,
+        "sales_cycle_days": 0.9602,
+        "opps_per_month": 1.0414
+      },
+      "coverage": {
+        "impact": 0.4667,
+        "decision": 0.1333,
+        "critical_event": 0.4667
+      }
+    },
+    "Rep K": {
+      "mean": 50582.714128042695,
+      "pct_10": 37050.08829731913,
+      "pct_50": 49429.3130493722,
+      "pct_90": 65779.39041767624,
+      "floor_90pct_of_runs_clear": 37050.08829731913,
+      "upside_10pct_of_runs_exceed": 65779.39041767624,
+      "skew": 0.562402049178057,
+      "mass_on_the_left": true,
+      "bridge_multipliers": {
+        "acv": 1.1301,
+        "win_rate": 1.0194,
+        "sales_cycle_days": 0.9532,
+        "opps_per_month": 1.0491
+      },
+      "coverage": {
+        "impact": 0.5,
+        "decision": 0.1667,
+        "critical_event": 0.5
+      }
+    },
+    "Rep L": {
+      "mean": 51323.210456005385,
+      "pct_10": 37561.25846661318,
+      "pct_50": 50148.22942371594,
+      "pct_90": 66675.24882282854,
+      "floor_90pct_of_runs_clear": 37561.25846661318,
+      "upside_10pct_of_runs_exceed": 66675.24882282854,
+      "skew": 0.5782006591753447,
+      "mass_on_the_left": true,
+      "bridge_multipliers": {
+        "acv": 1.1301,
+        "win_rate": 0.9935,
+        "sales_cycle_days": 0.9322,
+        "opps_per_month": 1.0727
+      },
+      "coverage": {
+        "impact": 0.5,
+        "decision": 0.0,
+        "critical_event": 0.6
+      }
+    }
+  },
+  "cohorts": {
+    "members": {
+      "top": [
+        "Rep L",
+        "Rep K",
+        "Rep J",
+        "Rep G"
+      ],
+      "middle": [
+        "Rep H",
+        "Rep I",
+        "Rep E",
+        "Rep D"
+      ],
+      "low": [
+        "Rep F",
+        "Rep C",
+        "Rep B",
+        "Rep A"
+      ]
+    },
+    "actual_p50": {
+      "top": 48324.35,
+      "middle": 44419.21,
+      "low": 40947.13
+    },
+    "ladder_expected": {
+      "top": 48324.35,
+      "middle": 38659.48,
+      "low": 30927.58
+    },
+    "gap_vs_ladder": {
+      "top": 0.0,
+      "middle": 5759.74,
+      "low": 10019.55
+    },
+    "operating_at": {
+      "top": 1.0,
+      "middle": 1.149,
+      "low": 1.324
+    },
+    "basis": "behaviour_only",
+    "note": "The 80% ladder is a WbD heuristic, presented as historically true and not derived. Treat a gap as a flag to investigate, not a target to manage to.",
+    "warning": "BEHAVIOUR-ONLY BASIS. No per-rep CRM metrics were supplied, so the entire spread between these reps comes from the coverage bridge. Real rep variance is far wider than call behaviour alone explains, so the ladder comparison is NOT meaningful here. Do not put this cohort table in front of a client without per-rep opportunities, win rate, ACV and discount from the CRM."
+  },
+  "scenario": {
+    "name": "middle_to_top",
+    "movers": [
+      "Rep H",
+      "Rep I",
+      "Rep E",
+      "Rep D"
+    ],
+    "target_coverage": {
+      "impact": 0.4417,
+      "decision": 0.075,
+      "critical_event": 0.4667
+    },
+    "variants": {
+      "full_lift": {
+        "monthly_p50_now": 177774.6,
+        "monthly_p50_after": 192266.24,
+        "monthly_delta": 14491.64,
+        "annualised_delta": 173899.68,
+        "per_rep": {
+          "Rep H": {
+            "p50_now": 45100.09,
+            "p50_then": 48185.58
+          },
+          "Rep I": {
+            "p50_now": 44529.66,
+            "p50_then": 48046.53
+          },
+          "Rep E": {
+            "p50_now": 44270.4,
+            "p50_then": 47963.76
+          },
+          "Rep D": {
+            "p50_now": 43874.45,
+            "p50_then": 48070.37
+          }
+        }
+      },
+      "conservative_half_lift": {
+        "monthly_p50_now": 177435.3,
+        "monthly_p50_after": 184136.73,
+        "monthly_delta": 6701.43,
+        "annualised_delta": 80417.12,
+        "per_rep": {
+          "Rep H": {
+            "p50_now": 44610.59,
+            "p50_then": 46084.88
+          },
+          "Rep I": {
+            "p50_now": 44412.57,
+            "p50_then": 46031.47
+          },
+          "Rep E": {
+            "p50_now": 44308.27,
+            "p50_then": 46002.86
+          },
+          "Rep D": {
+            "p50_now": 44103.88,
+            "p50_then": 46017.52
+          }
+        }
+      }
+    },
+    "caveat": "The coverage-to-metric bridge is OUR inference. WbD measure the lift binary and per call; applying it as a linear scaler on a coverage rate is an extrapolation. Report the range between full_lift and conservative_half_lift. If the coaching case only survives at full lift, it does not survive."
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "name": "The default CRM Enrichment example from Clay's public scoping template",
+  "audience": {
+    "account": {
+      "crm_volume": 10000,
+      "share_relevant": 0.4,
+      "new_records": 2000
+    },
+    "contact": {
+      "crm_volume": 20000,
+      "share_relevant": 0.4,
+      "new_records": 4000
+    }
+  },
+  "fields": [
+    {
+      "object": "account",
+      "name": "Validate Domain",
+      "credits_each": 0.5,
+      "waterfall": false,
+      "coverage": 1,
+      "runs_per_year": 1,
+      "own_api_key": false
+    },
+    {
+      "object": "account",
+      "name": "Enrich Company",
+      "credits_each": 0.5,
+      "waterfall": false,
+      "coverage": 0.95,
+      "runs_per_year": 1,
+      "own_api_key": true
+    },
+    {
+      "object": "account",
+      "name": "Funding Round",
+      "credits_each": 2,
+      "waterfall": false,
+      "coverage": 0.8,
+      "runs_per_year": 6,
+      "own_api_key": false
+    },
+    {
+      "object": "account",
+      "name": "Company LinkedIn URL",
+      "credits_each": 1,
+      "waterfall": false,
+      "coverage": 0.8,
+      "runs_per_year": 1,
+      "own_api_key": false
+    },
+    {
+      "object": "account",
+      "name": "Industry Segmentation",
+      "credits_each": 1,
+      "waterfall": false,
+      "coverage": 1,
+      "runs_per_year": 1,
+      "own_api_key": true
+    },
+    {
+      "object": "account",
+      "name": "Headcount",
+      "credits_each": 1,
+      "waterfall": true,
+      "coverage": 0.7,
+      "runs_per_year": 2,
+      "own_api_key": true
+    },
+    {
+      "object": "account",
+      "name": "Revenue",
+      "credits_each": 3,
+      "waterfall": false,
+      "coverage": 0.75,
+      "runs_per_year": 1,
+      "own_api_key": true
+    },
+    {
+      "object": "account",
+      "name": "AI Web Research",
+      "credits_each": 5,
+      "waterfall": false,
+      "coverage": 1,
+      "runs_per_year": 1,
+      "own_api_key": false
+    },
+    {
+      "object": "contact",
+      "name": "Validate Email",
+      "credits_each": 1,
+      "waterfall": false,
+      "coverage": 1,
+      "runs_per_year": 1,
+      "own_api_key": false
+    },
+    {
+      "object": "contact",
+      "name": "Find LinkedIn URL",
+      "credits_each": 3,
+      "waterfall": true,
+      "coverage": 1,
+      "runs_per_year": 1,
+      "own_api_key": false
+    },
+    {
+      "object": "contact",
+      "name": "LinkedIn Profile Match",
+      "credits_each": 3,
+      "waterfall": false,
+      "coverage": 1,
+      "runs_per_year": 1,
+      "own_api_key": true
+    },
+    {
+      "object": "contact",
+      "name": "Enrich Person",
+      "credits_each": 1,
+      "waterfall": false,
+      "coverage": 1,
+      "runs_per_year": 1,
+      "own_api_key": true
+    },
+    {
+      "object": "contact",
+      "name": "Employment Analysis",
+      "credits_each": 1,
+      "waterfall": false,
+      "coverage": 1,
+      "runs_per_year": 1,
+      "own_api_key": true
+    },
+    {
+      "object": "contact",
+      "name": "Work Email, Validated",
+      "credits_each": 2,
+      "waterfall": true,
+      "coverage": 1,
+      "runs_per_year": 1,
+      "own_api_key": true
+    },
+    {
+      "object": "contact",
+      "name": "Work Email, Catch All",
+      "credits_each": 2,
+      "waterfall": true,
+      "coverage": 1,
+      "runs_per_year": 1,
+      "own_api_key": true
+    },
+    {
+      "object": "contact",
+      "name": "Industry Classification",
+      "credits_each": 3,
+      "waterfall": false,
+      "coverage": 1,
+      "runs_per_year": 1,
+      "own_api_key": true
+    },
+    {
+      "object": "contact",
+      "name": "Job Function and Seniority",
+      "credits_each": 1,
+      "waterfall": false,
+      "coverage": 1,
+      "runs_per_year": 1,
+      "own_api_key": false
+    },
+    {
+      "object": "contact",
+      "name": "AI Web Research",
+      "credits_each": 6,
+      "waterfall": false,
+      "coverage": 1,
+      "runs_per_year": 2,
+      "own_api_key": false
+    }
+  ],
+  "signals": [
+    {
+      "object": "account",
+      "name": "Job Changer",
+      "credits_each": 0.2,
+      "checks_per_year": 4
+    },
+    {
+      "object": "contact",
+      "name": "Promotions",
+      "credits_each": 0.2,
+      "checks_per_year": 4
+    },
+    {
+      "object": "account",
+      "name": "New Hires",
+      "credits_each": 0.2,
+      "checks_per_year": 6
+    }
+  ],
+  "exports": [
+    {
+      "object": "account",
+      "name": "Sync to system of record",
+      "per_year": 5
+    },
+    {
+      "object": "account",
+      "name": "Generate content",
+      "per_year": 3
+    },
+    {
+      "object": "account",
+      "name": "Notify rep",
+      "per_year": 2
+    },
+    {
+      "object": "contact",
+      "name": "Sync to system of record",
+      "per_year": 5
+    },
+    {
+      "object": "contact",
+      "name": "Generate content",
+      "per_year": 2
+    },
+    {
+      "object": "contact",
+      "name": "Notify rep",
+      "per_year": 5
+    },
+    {
+      "object": "contact",
+      "name": "Contact prospect",
+      "per_year": 2
+    }
+  ]
+}

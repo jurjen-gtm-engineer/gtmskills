@@ -1,0 +1,1370 @@
+{
+  "Rep A": {
+    "n_calls": 11,
+    "scored": {
+      "situation": {
+        "covered": 8,
+        "denominator": 11,
+        "coverage": 0.7273,
+        "ci95": [
+          0.4343,
+          0.9025
+        ],
+        "mastery_rate": 0.6364,
+        "qualified_rate": 0.6364,
+        "qualified_denominator": 11,
+        "wbd_benchmark": null,
+        "lift_when_present": null
+      },
+      "pain": {
+        "covered": 10,
+        "denominator": 11,
+        "coverage": 0.9091,
+        "ci95": [
+          0.6226,
+          0.9838
+        ],
+        "mastery_rate": 0.5455,
+        "qualified_rate": 0.5455,
+        "qualified_denominator": 11,
+        "wbd_benchmark": null,
+        "lift_when_present": null
+      },
+      "impact": {
+        "covered": 0,
+        "denominator": 11,
+        "coverage": 0.0,
+        "ci95": [
+          0.0,
+          0.2588
+        ],
+        "mastery_rate": 0.0,
+        "qualified_rate": 0.0,
+        "qualified_denominator": 11,
+        "wbd_benchmark": 0.206,
+        "lift_when_present": "+44% revenue per account"
+      },
+      "critical_event": {
+        "covered": 0,
+        "denominator": 11,
+        "coverage": 0.0,
+        "ci95": [
+          0.0,
+          0.2588
+        ],
+        "mastery_rate": 0.0,
+        "qualified_rate": 0.0,
+        "qualified_denominator": 11,
+        "wbd_benchmark": 0.217,
+        "lift_when_present": "21% shorter cycle (66d to 52d)"
+      },
+      "decision": {
+        "covered": 0,
+        "denominator": 11,
+        "coverage": 0.0,
+        "ci95": [
+          0.0,
+          0.2588
+        ],
+        "mastery_rate": 0.0,
+        "qualified_rate": 0.0,
+        "qualified_denominator": 11,
+        "wbd_benchmark": 0.068,
+        "lift_when_present": "+15.5% win rate"
+      }
+    },
+    "moves": {
+      "second_question": {
+        "observed": 0,
+        "denominator": 11,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.2588
+        ]
+      },
+      "customer_supplied_number": {
+        "observed": 0,
+        "denominator": 11,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.2588
+        ]
+      },
+      "what_breaks": {
+        "observed": 0,
+        "denominator": 11,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.2588
+        ]
+      },
+      "demo_pivot": {
+        "observed": 8,
+        "denominator": 11,
+        "rate": 0.7273,
+        "ci95": [
+          0.4343,
+          0.9025
+        ]
+      }
+    },
+    "sufficient_sample": true
+  },
+  "Rep B": {
+    "n_calls": 13,
+    "scored": {
+      "situation": {
+        "covered": 13,
+        "denominator": 13,
+        "coverage": 1.0,
+        "ci95": [
+          0.7719,
+          1.0
+        ],
+        "mastery_rate": 0.5385,
+        "qualified_rate": 0.5385,
+        "qualified_denominator": 13,
+        "wbd_benchmark": null,
+        "lift_when_present": null
+      },
+      "pain": {
+        "covered": 9,
+        "denominator": 13,
+        "coverage": 0.6923,
+        "ci95": [
+          0.4237,
+          0.8732
+        ],
+        "mastery_rate": 0.4615,
+        "qualified_rate": 0.4615,
+        "qualified_denominator": 13,
+        "wbd_benchmark": null,
+        "lift_when_present": null
+      },
+      "impact": {
+        "covered": 0,
+        "denominator": 13,
+        "coverage": 0.0,
+        "ci95": [
+          0.0,
+          0.2281
+        ],
+        "mastery_rate": 0.0,
+        "qualified_rate": 0.0,
+        "qualified_denominator": 13,
+        "wbd_benchmark": 0.206,
+        "lift_when_present": "+44% revenue per account"
+      },
+      "critical_event": {
+        "covered": 0,
+        "denominator": 13,
+        "coverage": 0.0,
+        "ci95": [
+          0.0,
+          0.2281
+        ],
+        "mastery_rate": 0.0,
+        "qualified_rate": 0.0,
+        "qualified_denominator": 13,
+        "wbd_benchmark": 0.217,
+        "lift_when_present": "21% shorter cycle (66d to 52d)"
+      },
+      "decision": {
+        "covered": 0,
+        "denominator": 13,
+        "coverage": 0.0,
+        "ci95": [
+          0.0,
+          0.2281
+        ],
+        "mastery_rate": 0.0,
+        "qualified_rate": 0.0,
+        "qualified_denominator": 13,
+        "wbd_benchmark": 0.068,
+        "lift_when_present": "+15.5% win rate"
+      }
+    },
+    "moves": {
+      "second_question": {
+        "observed": 0,
+        "denominator": 13,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.2281
+        ]
+      },
+      "customer_supplied_number": {
+        "observed": 0,
+        "denominator": 13,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.2281
+        ]
+      },
+      "what_breaks": {
+        "observed": 0,
+        "denominator": 13,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.2281
+        ]
+      },
+      "demo_pivot": {
+        "observed": 4,
+        "denominator": 13,
+        "rate": 0.3077,
+        "ci95": [
+          0.1268,
+          0.5763
+        ]
+      }
+    },
+    "sufficient_sample": true
+  },
+  "Rep C": {
+    "n_calls": 9,
+    "scored": {
+      "situation": {
+        "covered": 8,
+        "denominator": 9,
+        "coverage": 0.8889,
+        "ci95": [
+          0.565,
+          0.9801
+        ],
+        "mastery_rate": 0.1111,
+        "qualified_rate": 0.1111,
+        "qualified_denominator": 9,
+        "wbd_benchmark": null,
+        "lift_when_present": null
+      },
+      "pain": {
+        "covered": 8,
+        "denominator": 9,
+        "coverage": 0.8889,
+        "ci95": [
+          0.565,
+          0.9801
+        ],
+        "mastery_rate": 0.7778,
+        "qualified_rate": 0.7778,
+        "qualified_denominator": 9,
+        "wbd_benchmark": null,
+        "lift_when_present": null
+      },
+      "impact": {
+        "covered": 0,
+        "denominator": 9,
+        "coverage": 0.0,
+        "ci95": [
+          0.0,
+          0.2992
+        ],
+        "mastery_rate": 0.0,
+        "qualified_rate": 0.0,
+        "qualified_denominator": 9,
+        "wbd_benchmark": 0.206,
+        "lift_when_present": "+44% revenue per account"
+      },
+      "critical_event": {
+        "covered": 1,
+        "denominator": 9,
+        "coverage": 0.1111,
+        "ci95": [
+          0.0199,
+          0.435
+        ],
+        "mastery_rate": 0.1111,
+        "qualified_rate": 0.1111,
+        "qualified_denominator": 9,
+        "wbd_benchmark": 0.217,
+        "lift_when_present": "21% shorter cycle (66d to 52d)"
+      },
+      "decision": {
+        "covered": 0,
+        "denominator": 9,
+        "coverage": 0.0,
+        "ci95": [
+          0.0,
+          0.2992
+        ],
+        "mastery_rate": 0.0,
+        "qualified_rate": 0.0,
+        "qualified_denominator": 9,
+        "wbd_benchmark": 0.068,
+        "lift_when_present": "+15.5% win rate"
+      }
+    },
+    "moves": {
+      "second_question": {
+        "observed": 0,
+        "denominator": 9,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.2992
+        ]
+      },
+      "customer_supplied_number": {
+        "observed": 0,
+        "denominator": 9,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.2992
+        ]
+      },
+      "what_breaks": {
+        "observed": 1,
+        "denominator": 9,
+        "rate": 0.1111,
+        "ci95": [
+          0.0199,
+          0.435
+        ]
+      },
+      "demo_pivot": {
+        "observed": 5,
+        "denominator": 9,
+        "rate": 0.5556,
+        "ci95": [
+          0.2666,
+          0.8112
+        ]
+      }
+    },
+    "sufficient_sample": true
+  },
+  "Rep D": {
+    "n_calls": 14,
+    "scored": {
+      "situation": {
+        "covered": 14,
+        "denominator": 14,
+        "coverage": 1.0,
+        "ci95": [
+          0.7847,
+          1.0
+        ],
+        "mastery_rate": 0.7857,
+        "qualified_rate": 0.7857,
+        "qualified_denominator": 14,
+        "wbd_benchmark": null,
+        "lift_when_present": null
+      },
+      "pain": {
+        "covered": 6,
+        "denominator": 14,
+        "coverage": 0.4286,
+        "ci95": [
+          0.2138,
+          0.6741
+        ],
+        "mastery_rate": 0.2143,
+        "qualified_rate": 0.2143,
+        "qualified_denominator": 14,
+        "wbd_benchmark": null,
+        "lift_when_present": null
+      },
+      "impact": {
+        "covered": 2,
+        "denominator": 14,
+        "coverage": 0.1429,
+        "ci95": [
+          0.0401,
+          0.3994
+        ],
+        "mastery_rate": 0.1429,
+        "qualified_rate": 0.1429,
+        "qualified_denominator": 14,
+        "wbd_benchmark": 0.206,
+        "lift_when_present": "+44% revenue per account"
+      },
+      "critical_event": {
+        "covered": 4,
+        "denominator": 14,
+        "coverage": 0.2857,
+        "ci95": [
+          0.1172,
+          0.5465
+        ],
+        "mastery_rate": 0.2857,
+        "qualified_rate": 0.2857,
+        "qualified_denominator": 14,
+        "wbd_benchmark": 0.217,
+        "lift_when_present": "21% shorter cycle (66d to 52d)"
+      },
+      "decision": {
+        "covered": 0,
+        "denominator": 14,
+        "coverage": 0.0,
+        "ci95": [
+          0.0,
+          0.2153
+        ],
+        "mastery_rate": 0.0,
+        "qualified_rate": 0.0,
+        "qualified_denominator": 14,
+        "wbd_benchmark": 0.068,
+        "lift_when_present": "+15.5% win rate"
+      }
+    },
+    "moves": {
+      "second_question": {
+        "observed": 2,
+        "denominator": 14,
+        "rate": 0.1429,
+        "ci95": [
+          0.0401,
+          0.3994
+        ]
+      },
+      "customer_supplied_number": {
+        "observed": 2,
+        "denominator": 14,
+        "rate": 0.1429,
+        "ci95": [
+          0.0401,
+          0.3994
+        ]
+      },
+      "what_breaks": {
+        "observed": 4,
+        "denominator": 14,
+        "rate": 0.2857,
+        "ci95": [
+          0.1172,
+          0.5465
+        ]
+      },
+      "demo_pivot": {
+        "observed": 5,
+        "denominator": 14,
+        "rate": 0.3571,
+        "ci95": [
+          0.1634,
+          0.6124
+        ]
+      }
+    },
+    "sufficient_sample": true
+  },
+  "Rep E": {
+    "n_calls": 11,
+    "scored": {
+      "situation": {
+        "covered": 9,
+        "denominator": 11,
+        "coverage": 0.8182,
+        "ci95": [
+          0.523,
+          0.9486
+        ],
+        "mastery_rate": 0.4545,
+        "qualified_rate": 0.4545,
+        "qualified_denominator": 11,
+        "wbd_benchmark": null,
+        "lift_when_present": null
+      },
+      "pain": {
+        "covered": 8,
+        "denominator": 11,
+        "coverage": 0.7273,
+        "ci95": [
+          0.4343,
+          0.9025
+        ],
+        "mastery_rate": 0.6364,
+        "qualified_rate": 0.6364,
+        "qualified_denominator": 11,
+        "wbd_benchmark": null,
+        "lift_when_present": null
+      },
+      "impact": {
+        "covered": 1,
+        "denominator": 11,
+        "coverage": 0.0909,
+        "ci95": [
+          0.0162,
+          0.3774
+        ],
+        "mastery_rate": 0.0909,
+        "qualified_rate": 0.0909,
+        "qualified_denominator": 11,
+        "wbd_benchmark": 0.206,
+        "lift_when_present": "+44% revenue per account"
+      },
+      "critical_event": {
+        "covered": 4,
+        "denominator": 11,
+        "coverage": 0.3636,
+        "ci95": [
+          0.1517,
+          0.6462
+        ],
+        "mastery_rate": 0.2727,
+        "qualified_rate": 0.2727,
+        "qualified_denominator": 11,
+        "wbd_benchmark": 0.217,
+        "lift_when_present": "21% shorter cycle (66d to 52d)"
+      },
+      "decision": {
+        "covered": 0,
+        "denominator": 11,
+        "coverage": 0.0,
+        "ci95": [
+          0.0,
+          0.2588
+        ],
+        "mastery_rate": 0.0,
+        "qualified_rate": 0.0,
+        "qualified_denominator": 11,
+        "wbd_benchmark": 0.068,
+        "lift_when_present": "+15.5% win rate"
+      }
+    },
+    "moves": {
+      "second_question": {
+        "observed": 1,
+        "denominator": 11,
+        "rate": 0.0909,
+        "ci95": [
+          0.0162,
+          0.3774
+        ]
+      },
+      "customer_supplied_number": {
+        "observed": 1,
+        "denominator": 11,
+        "rate": 0.0909,
+        "ci95": [
+          0.0162,
+          0.3774
+        ]
+      },
+      "what_breaks": {
+        "observed": 3,
+        "denominator": 11,
+        "rate": 0.2727,
+        "ci95": [
+          0.0975,
+          0.5657
+        ]
+      },
+      "demo_pivot": {
+        "observed": 5,
+        "denominator": 11,
+        "rate": 0.4545,
+        "ci95": [
+          0.2127,
+          0.7199
+        ]
+      }
+    },
+    "sufficient_sample": true
+  },
+  "Rep F": {
+    "n_calls": 9,
+    "scored": {
+      "situation": {
+        "covered": 9,
+        "denominator": 9,
+        "coverage": 1.0,
+        "ci95": [
+          0.7008,
+          1.0
+        ],
+        "mastery_rate": 0.7778,
+        "qualified_rate": 0.7778,
+        "qualified_denominator": 9,
+        "wbd_benchmark": null,
+        "lift_when_present": null
+      },
+      "pain": {
+        "covered": 4,
+        "denominator": 9,
+        "coverage": 0.4444,
+        "ci95": [
+          0.1888,
+          0.7334
+        ],
+        "mastery_rate": 0.2222,
+        "qualified_rate": 0.2222,
+        "qualified_denominator": 9,
+        "wbd_benchmark": null,
+        "lift_when_present": null
+      },
+      "impact": {
+        "covered": 1,
+        "denominator": 9,
+        "coverage": 0.1111,
+        "ci95": [
+          0.0199,
+          0.435
+        ],
+        "mastery_rate": 0.0,
+        "qualified_rate": 0.0,
+        "qualified_denominator": 9,
+        "wbd_benchmark": 0.206,
+        "lift_when_present": "+44% revenue per account"
+      },
+      "critical_event": {
+        "covered": 0,
+        "denominator": 9,
+        "coverage": 0.0,
+        "ci95": [
+          0.0,
+          0.2992
+        ],
+        "mastery_rate": 0.0,
+        "qualified_rate": 0.0,
+        "qualified_denominator": 9,
+        "wbd_benchmark": 0.217,
+        "lift_when_present": "21% shorter cycle (66d to 52d)"
+      },
+      "decision": {
+        "covered": 1,
+        "denominator": 9,
+        "coverage": 0.1111,
+        "ci95": [
+          0.0199,
+          0.435
+        ],
+        "mastery_rate": 0.1111,
+        "qualified_rate": 0.1111,
+        "qualified_denominator": 9,
+        "wbd_benchmark": 0.068,
+        "lift_when_present": "+15.5% win rate"
+      }
+    },
+    "moves": {
+      "second_question": {
+        "observed": 1,
+        "denominator": 9,
+        "rate": 0.1111,
+        "ci95": [
+          0.0199,
+          0.435
+        ]
+      },
+      "customer_supplied_number": {
+        "observed": 0,
+        "denominator": 9,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.2992
+        ]
+      },
+      "what_breaks": {
+        "observed": 0,
+        "denominator": 9,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.2992
+        ]
+      },
+      "demo_pivot": {
+        "observed": 8,
+        "denominator": 9,
+        "rate": 0.8889,
+        "ci95": [
+          0.565,
+          0.9801
+        ]
+      }
+    },
+    "sufficient_sample": true
+  },
+  "Rep G": {
+    "n_calls": 10,
+    "scored": {
+      "situation": {
+        "covered": 9,
+        "denominator": 10,
+        "coverage": 0.9,
+        "ci95": [
+          0.5958,
+          0.9821
+        ],
+        "mastery_rate": 0.7,
+        "qualified_rate": 0.7,
+        "qualified_denominator": 10,
+        "wbd_benchmark": null,
+        "lift_when_present": null
+      },
+      "pain": {
+        "covered": 6,
+        "denominator": 10,
+        "coverage": 0.6,
+        "ci95": [
+          0.3127,
+          0.8318
+        ],
+        "mastery_rate": 0.4,
+        "qualified_rate": 0.4,
+        "qualified_denominator": 10,
+        "wbd_benchmark": null,
+        "lift_when_present": null
+      },
+      "impact": {
+        "covered": 3,
+        "denominator": 10,
+        "coverage": 0.3,
+        "ci95": [
+          0.1078,
+          0.6032
+        ],
+        "mastery_rate": 0.3,
+        "qualified_rate": 0.3,
+        "qualified_denominator": 10,
+        "wbd_benchmark": 0.206,
+        "lift_when_present": "+44% revenue per account"
+      },
+      "critical_event": {
+        "covered": 3,
+        "denominator": 10,
+        "coverage": 0.3,
+        "ci95": [
+          0.1078,
+          0.6032
+        ],
+        "mastery_rate": 0.2,
+        "qualified_rate": 0.2,
+        "qualified_denominator": 10,
+        "wbd_benchmark": 0.217,
+        "lift_when_present": "21% shorter cycle (66d to 52d)"
+      },
+      "decision": {
+        "covered": 0,
+        "denominator": 10,
+        "coverage": 0.0,
+        "ci95": [
+          0.0,
+          0.2775
+        ],
+        "mastery_rate": 0.0,
+        "qualified_rate": 0.0,
+        "qualified_denominator": 10,
+        "wbd_benchmark": 0.068,
+        "lift_when_present": "+15.5% win rate"
+      }
+    },
+    "moves": {
+      "second_question": {
+        "observed": 3,
+        "denominator": 10,
+        "rate": 0.3,
+        "ci95": [
+          0.1078,
+          0.6032
+        ]
+      },
+      "customer_supplied_number": {
+        "observed": 3,
+        "denominator": 10,
+        "rate": 0.3,
+        "ci95": [
+          0.1078,
+          0.6032
+        ]
+      },
+      "what_breaks": {
+        "observed": 2,
+        "denominator": 10,
+        "rate": 0.2,
+        "ci95": [
+          0.0567,
+          0.5098
+        ]
+      },
+      "demo_pivot": {
+        "observed": 5,
+        "denominator": 10,
+        "rate": 0.5,
+        "ci95": [
+          0.2366,
+          0.7634
+        ]
+      }
+    },
+    "sufficient_sample": true
+  },
+  "Rep H": {
+    "n_calls": 12,
+    "scored": {
+      "situation": {
+        "covered": 9,
+        "denominator": 12,
+        "coverage": 0.75,
+        "ci95": [
+          0.4677,
+          0.9111
+        ],
+        "mastery_rate": 0.6667,
+        "qualified_rate": 0.6667,
+        "qualified_denominator": 12,
+        "wbd_benchmark": null,
+        "lift_when_present": null
+      },
+      "pain": {
+        "covered": 10,
+        "denominator": 12,
+        "coverage": 0.8333,
+        "ci95": [
+          0.552,
+          0.953
+        ],
+        "mastery_rate": 0.5833,
+        "qualified_rate": 0.5833,
+        "qualified_denominator": 12,
+        "wbd_benchmark": null,
+        "lift_when_present": null
+      },
+      "impact": {
+        "covered": 3,
+        "denominator": 12,
+        "coverage": 0.25,
+        "ci95": [
+          0.0889,
+          0.5323
+        ],
+        "mastery_rate": 0.25,
+        "qualified_rate": 0.25,
+        "qualified_denominator": 12,
+        "wbd_benchmark": 0.206,
+        "lift_when_present": "+44% revenue per account"
+      },
+      "critical_event": {
+        "covered": 4,
+        "denominator": 12,
+        "coverage": 0.3333,
+        "ci95": [
+          0.1381,
+          0.6094
+        ],
+        "mastery_rate": 0.3333,
+        "qualified_rate": 0.3333,
+        "qualified_denominator": 12,
+        "wbd_benchmark": 0.217,
+        "lift_when_present": "21% shorter cycle (66d to 52d)"
+      },
+      "decision": {
+        "covered": 0,
+        "denominator": 12,
+        "coverage": 0.0,
+        "ci95": [
+          0.0,
+          0.2425
+        ],
+        "mastery_rate": 0.0,
+        "qualified_rate": 0.0,
+        "qualified_denominator": 12,
+        "wbd_benchmark": 0.068,
+        "lift_when_present": "+15.5% win rate"
+      }
+    },
+    "moves": {
+      "second_question": {
+        "observed": 3,
+        "denominator": 12,
+        "rate": 0.25,
+        "ci95": [
+          0.0889,
+          0.5323
+        ]
+      },
+      "customer_supplied_number": {
+        "observed": 3,
+        "denominator": 12,
+        "rate": 0.25,
+        "ci95": [
+          0.0889,
+          0.5323
+        ]
+      },
+      "what_breaks": {
+        "observed": 4,
+        "denominator": 12,
+        "rate": 0.3333,
+        "ci95": [
+          0.1381,
+          0.6094
+        ]
+      },
+      "demo_pivot": {
+        "observed": 6,
+        "denominator": 12,
+        "rate": 0.5,
+        "ci95": [
+          0.2538,
+          0.7462
+        ]
+      }
+    },
+    "sufficient_sample": true
+  },
+  "Rep I": {
+    "n_calls": 11,
+    "scored": {
+      "situation": {
+        "covered": 9,
+        "denominator": 11,
+        "coverage": 0.8182,
+        "ci95": [
+          0.523,
+          0.9486
+        ],
+        "mastery_rate": 0.3636,
+        "qualified_rate": 0.3636,
+        "qualified_denominator": 11,
+        "wbd_benchmark": null,
+        "lift_when_present": null
+      },
+      "pain": {
+        "covered": 6,
+        "denominator": 11,
+        "coverage": 0.5455,
+        "ci95": [
+          0.2801,
+          0.7873
+        ],
+        "mastery_rate": 0.2727,
+        "qualified_rate": 0.2727,
+        "qualified_denominator": 11,
+        "wbd_benchmark": null,
+        "lift_when_present": null
+      },
+      "impact": {
+        "covered": 1,
+        "denominator": 11,
+        "coverage": 0.0909,
+        "ci95": [
+          0.0162,
+          0.3774
+        ],
+        "mastery_rate": 0.0909,
+        "qualified_rate": 0.0909,
+        "qualified_denominator": 11,
+        "wbd_benchmark": 0.206,
+        "lift_when_present": "+44% revenue per account"
+      },
+      "critical_event": {
+        "covered": 4,
+        "denominator": 11,
+        "coverage": 0.3636,
+        "ci95": [
+          0.1517,
+          0.6462
+        ],
+        "mastery_rate": 0.2727,
+        "qualified_rate": 0.2727,
+        "qualified_denominator": 11,
+        "wbd_benchmark": 0.217,
+        "lift_when_present": "21% shorter cycle (66d to 52d)"
+      },
+      "decision": {
+        "covered": 1,
+        "denominator": 11,
+        "coverage": 0.0909,
+        "ci95": [
+          0.0162,
+          0.3774
+        ],
+        "mastery_rate": 0.0909,
+        "qualified_rate": 0.0909,
+        "qualified_denominator": 11,
+        "wbd_benchmark": 0.068,
+        "lift_when_present": "+15.5% win rate"
+      }
+    },
+    "moves": {
+      "second_question": {
+        "observed": 1,
+        "denominator": 11,
+        "rate": 0.0909,
+        "ci95": [
+          0.0162,
+          0.3774
+        ]
+      },
+      "customer_supplied_number": {
+        "observed": 1,
+        "denominator": 11,
+        "rate": 0.0909,
+        "ci95": [
+          0.0162,
+          0.3774
+        ]
+      },
+      "what_breaks": {
+        "observed": 3,
+        "denominator": 11,
+        "rate": 0.2727,
+        "ci95": [
+          0.0975,
+          0.5657
+        ]
+      },
+      "demo_pivot": {
+        "observed": 4,
+        "denominator": 11,
+        "rate": 0.3636,
+        "ci95": [
+          0.1517,
+          0.6462
+        ]
+      }
+    },
+    "sufficient_sample": true
+  },
+  "Rep J": {
+    "n_calls": 15,
+    "scored": {
+      "situation": {
+        "covered": 13,
+        "denominator": 15,
+        "coverage": 0.8667,
+        "ci95": [
+          0.6212,
+          0.9626
+        ],
+        "mastery_rate": 0.5333,
+        "qualified_rate": 0.5333,
+        "qualified_denominator": 15,
+        "wbd_benchmark": null,
+        "lift_when_present": null
+      },
+      "pain": {
+        "covered": 10,
+        "denominator": 15,
+        "coverage": 0.6667,
+        "ci95": [
+          0.4171,
+          0.8482
+        ],
+        "mastery_rate": 0.6,
+        "qualified_rate": 0.6,
+        "qualified_denominator": 15,
+        "wbd_benchmark": null,
+        "lift_when_present": null
+      },
+      "impact": {
+        "covered": 7,
+        "denominator": 15,
+        "coverage": 0.4667,
+        "ci95": [
+          0.2481,
+          0.6988
+        ],
+        "mastery_rate": 0.4667,
+        "qualified_rate": 0.4667,
+        "qualified_denominator": 15,
+        "wbd_benchmark": 0.206,
+        "lift_when_present": "+44% revenue per account"
+      },
+      "critical_event": {
+        "covered": 7,
+        "denominator": 15,
+        "coverage": 0.4667,
+        "ci95": [
+          0.2481,
+          0.6988
+        ],
+        "mastery_rate": 0.2667,
+        "qualified_rate": 0.2667,
+        "qualified_denominator": 15,
+        "wbd_benchmark": 0.217,
+        "lift_when_present": "21% shorter cycle (66d to 52d)"
+      },
+      "decision": {
+        "covered": 2,
+        "denominator": 15,
+        "coverage": 0.1333,
+        "ci95": [
+          0.0374,
+          0.3788
+        ],
+        "mastery_rate": 0.0,
+        "qualified_rate": 0.0,
+        "qualified_denominator": 15,
+        "wbd_benchmark": 0.068,
+        "lift_when_present": "+15.5% win rate"
+      }
+    },
+    "moves": {
+      "second_question": {
+        "observed": 7,
+        "denominator": 15,
+        "rate": 0.4667,
+        "ci95": [
+          0.2481,
+          0.6988
+        ]
+      },
+      "customer_supplied_number": {
+        "observed": 7,
+        "denominator": 15,
+        "rate": 0.4667,
+        "ci95": [
+          0.2481,
+          0.6988
+        ]
+      },
+      "what_breaks": {
+        "observed": 4,
+        "denominator": 15,
+        "rate": 0.2667,
+        "ci95": [
+          0.109,
+          0.5195
+        ]
+      },
+      "demo_pivot": {
+        "observed": 7,
+        "denominator": 15,
+        "rate": 0.4667,
+        "ci95": [
+          0.2481,
+          0.6988
+        ]
+      }
+    },
+    "sufficient_sample": true
+  },
+  "Rep K": {
+    "n_calls": 12,
+    "scored": {
+      "situation": {
+        "covered": 11,
+        "denominator": 12,
+        "coverage": 0.9167,
+        "ci95": [
+          0.6461,
+          0.9851
+        ],
+        "mastery_rate": 0.6667,
+        "qualified_rate": 0.6667,
+        "qualified_denominator": 12,
+        "wbd_benchmark": null,
+        "lift_when_present": null
+      },
+      "pain": {
+        "covered": 11,
+        "denominator": 12,
+        "coverage": 0.9167,
+        "ci95": [
+          0.6461,
+          0.9851
+        ],
+        "mastery_rate": 0.5833,
+        "qualified_rate": 0.5833,
+        "qualified_denominator": 12,
+        "wbd_benchmark": null,
+        "lift_when_present": null
+      },
+      "impact": {
+        "covered": 6,
+        "denominator": 12,
+        "coverage": 0.5,
+        "ci95": [
+          0.2538,
+          0.7462
+        ],
+        "mastery_rate": 0.4167,
+        "qualified_rate": 0.4167,
+        "qualified_denominator": 12,
+        "wbd_benchmark": 0.206,
+        "lift_when_present": "+44% revenue per account"
+      },
+      "critical_event": {
+        "covered": 6,
+        "denominator": 12,
+        "coverage": 0.5,
+        "ci95": [
+          0.2538,
+          0.7462
+        ],
+        "mastery_rate": 0.3333,
+        "qualified_rate": 0.3333,
+        "qualified_denominator": 12,
+        "wbd_benchmark": 0.217,
+        "lift_when_present": "21% shorter cycle (66d to 52d)"
+      },
+      "decision": {
+        "covered": 2,
+        "denominator": 12,
+        "coverage": 0.1667,
+        "ci95": [
+          0.047,
+          0.448
+        ],
+        "mastery_rate": 0.0833,
+        "qualified_rate": 0.0833,
+        "qualified_denominator": 12,
+        "wbd_benchmark": 0.068,
+        "lift_when_present": "+15.5% win rate"
+      }
+    },
+    "moves": {
+      "second_question": {
+        "observed": 6,
+        "denominator": 12,
+        "rate": 0.5,
+        "ci95": [
+          0.2538,
+          0.7462
+        ]
+      },
+      "customer_supplied_number": {
+        "observed": 5,
+        "denominator": 12,
+        "rate": 0.4167,
+        "ci95": [
+          0.1933,
+          0.6805
+        ]
+      },
+      "what_breaks": {
+        "observed": 4,
+        "denominator": 12,
+        "rate": 0.3333,
+        "ci95": [
+          0.1381,
+          0.6094
+        ]
+      },
+      "demo_pivot": {
+        "observed": 1,
+        "denominator": 12,
+        "rate": 0.0833,
+        "ci95": [
+          0.0149,
+          0.3539
+        ]
+      }
+    },
+    "sufficient_sample": true
+  },
+  "Rep L": {
+    "n_calls": 10,
+    "scored": {
+      "situation": {
+        "covered": 9,
+        "denominator": 10,
+        "coverage": 0.9,
+        "ci95": [
+          0.5958,
+          0.9821
+        ],
+        "mastery_rate": 0.6,
+        "qualified_rate": 0.6,
+        "qualified_denominator": 10,
+        "wbd_benchmark": null,
+        "lift_when_present": null
+      },
+      "pain": {
+        "covered": 6,
+        "denominator": 10,
+        "coverage": 0.6,
+        "ci95": [
+          0.3127,
+          0.8318
+        ],
+        "mastery_rate": 0.4,
+        "qualified_rate": 0.4,
+        "qualified_denominator": 10,
+        "wbd_benchmark": null,
+        "lift_when_present": null
+      },
+      "impact": {
+        "covered": 5,
+        "denominator": 10,
+        "coverage": 0.5,
+        "ci95": [
+          0.2366,
+          0.7634
+        ],
+        "mastery_rate": 0.3,
+        "qualified_rate": 0.3,
+        "qualified_denominator": 10,
+        "wbd_benchmark": 0.206,
+        "lift_when_present": "+44% revenue per account"
+      },
+      "critical_event": {
+        "covered": 6,
+        "denominator": 10,
+        "coverage": 0.6,
+        "ci95": [
+          0.3127,
+          0.8318
+        ],
+        "mastery_rate": 0.3,
+        "qualified_rate": 0.3,
+        "qualified_denominator": 10,
+        "wbd_benchmark": 0.217,
+        "lift_when_present": "21% shorter cycle (66d to 52d)"
+      },
+      "decision": {
+        "covered": 0,
+        "denominator": 10,
+        "coverage": 0.0,
+        "ci95": [
+          0.0,
+          0.2775
+        ],
+        "mastery_rate": 0.0,
+        "qualified_rate": 0.0,
+        "qualified_denominator": 10,
+        "wbd_benchmark": 0.068,
+        "lift_when_present": "+15.5% win rate"
+      }
+    },
+    "moves": {
+      "second_question": {
+        "observed": 5,
+        "denominator": 10,
+        "rate": 0.5,
+        "ci95": [
+          0.2366,
+          0.7634
+        ]
+      },
+      "customer_supplied_number": {
+        "observed": 3,
+        "denominator": 10,
+        "rate": 0.3,
+        "ci95": [
+          0.1078,
+          0.6032
+        ]
+      },
+      "what_breaks": {
+        "observed": 3,
+        "denominator": 10,
+        "rate": 0.3,
+        "ci95": [
+          0.1078,
+          0.6032
+        ]
+      },
+      "demo_pivot": {
+        "observed": 1,
+        "denominator": 10,
+        "rate": 0.1,
+        "ci95": [
+          0.0179,
+          0.4042
+        ]
+      }
+    },
+    "sufficient_sample": true
+  }
+}

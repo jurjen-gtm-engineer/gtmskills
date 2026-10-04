@@ -1,0 +1,410 @@
+{
+  "repo": "https://github.com/jurjen-gtm-engineer/gtmskills",
+  "groups": [
+    {
+      "id": "assessments",
+      "name": "Assessments",
+      "line": "Start here. Each one tells you where your revenue engine stands and which skills to run next.",
+      "skills": [
+        {
+          "slug": "gtm-readiness-scan",
+          "name": "GTM readiness scan",
+          "line": "A 24-question quick scan or a 120-question deep scan. Scores 8 domains from 0 to 5 and names your weakest ones."
+        },
+        {
+          "slug": "bowtie-benchmark",
+          "name": "Bowtie benchmark",
+          "line": "Asks for your funnel metrics, benchmarks each one for your deal size, and writes a scorecard with the biggest leaks.",
+          "credit": "Benchmarks recreated from Winning by Design"
+        },
+        {
+          "slug": "crm-scorecard",
+          "name": "CRM scorecard",
+          "line": "Turns a raw CRM export from any CRM into bowtie conversion rates, benchmarked, with the top two leaks named.",
+          "credit": "Built on Winning by Design's bowtie"
+        },
+        {
+          "slug": "spiced-call-scorecard",
+          "name": "SPICED call scorecard",
+          "line": "Scores call transcripts on the five SPICED dimensions with word-for-word evidence, and writes the follow-up questions.",
+          "credit": "SPICED is a Winning by Design framework"
+        },
+        {
+          "slug": "gtm-diagnostic",
+          "name": "GTM diagnostic",
+          "line": "Measures the full revenue engine, names the main cause, and produces a 30-60-90 day plan.",
+          "credit": "Built on Winning by Design's frameworks"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "name": "Product-market fit",
+      "line": "Prove who to sell to and why they buy.",
+      "skills": [
+        {
+          "slug": "customer-dossier",
+          "name": "Customer dossier",
+          "line": "One timeline per account from CRM, calls, billing, usage and support, with the source on every field.",
+          "credit": "Concept from Jordan Crawford's The Dossier"
+        },
+        {
+          "slug": "win-loss-rewind",
+          "name": "Win-loss rewind",
+          "line": "Works back from won, lost and churned customers to the situations that predict a buyer, checked on a 20% holdout.",
+          "credit": "Method by Jordan Crawford, Blueprint GTM"
+        },
+        {
+          "slug": "icp-agent",
+          "name": "ICP agent",
+          "line": "Defines your ideal customer profile as red, yellow and green, with a weighted scoring model.",
+          "credit": "Red, yellow, green from Mark Roberge's Science of Scaling"
+        },
+        {
+          "slug": "icp-objection-mapping",
+          "name": "ICP objection mapping",
+          "line": "Role-plays your most skeptical buyer before a campaign, so the copy answers the objections first."
+        },
+        {
+          "slug": "conversational-intelligence",
+          "name": "Conversational intelligence",
+          "line": "Pulls handoff notes, competitor mentions, expansion signals and loss reasons out of call transcripts."
+        },
+        {
+          "slug": "blueprint-swarm",
+          "name": "Blueprint swarm",
+          "line": "Reads hundreds of calls in parallel and checks its own output for made-up claims.",
+          "credit": "Based on Jordan Crawford's open-source Blueprint Swarm"
+        }
+      ]
+    },
+    {
+      "id": "gtm-fit",
+      "name": "GTM fit",
+      "line": "Build a sales motion that repeats and pays for itself.",
+      "skills": [
+        {
+          "slug": "meeting-prep",
+          "name": "Meeting prep",
+          "line": "A research brief for any sales meeting, with SPICED questions written for that contact and company.",
+          "credit": "Uses Winning by Design's SPICED and Science of Scaling's six questions"
+        },
+        {
+          "slug": "battlecard-builder",
+          "name": "Battlecard builder",
+          "line": "A competitor battlecard in 30 minutes that reps can use in the middle of a call.",
+          "credit": "Three-card framework from Science of Scaling"
+        },
+        {
+          "slug": "pqs-pvp-messaging",
+          "name": "PQS and PVP messaging",
+          "line": "Turns one signal or data point about a prospect into a cold email that mirrors their situation or hands them an insight.",
+          "credit": "PQS and PVP by Jordan Crawford, voice rules by Josh Braun"
+        },
+        {
+          "slug": "research-playbook",
+          "name": "Research playbook",
+          "line": "A 10-minute method to find one real signal per prospect for a cold email."
+        },
+        {
+          "slug": "qa-checklist",
+          "name": "QA checklist",
+          "line": "The standard a cold email has to pass before it ships, with a score."
+        },
+        {
+          "slug": "follow-up-sequences",
+          "name": "Follow-up sequences",
+          "line": "A multi-touch sequence where each email brings a new reason to reply."
+        },
+        {
+          "slug": "tam-data-cost-estimate",
+          "name": "TAM data cost estimate",
+          "line": "Prices a market map before you build it: one-off data cost, monthly cost and subscriptions, each as a range."
+        },
+        {
+          "slug": "crm-enrichment-cost-estimate",
+          "name": "CRM enrichment cost estimate",
+          "line": "Estimates the yearly Clay credits and actions to enrich the records already in your CRM.",
+          "credit": "Model follows Clay's public scoping template"
+        },
+        {
+          "slug": "free-first-domain-resolver",
+          "name": "Free-first domain resolver",
+          "line": "Turns company names into verified domains, free sources first, and refuses to guess when it cannot confirm.",
+          "credit": "Idea by Jordan Crawford, Blueprint GTM"
+        },
+        {
+          "slug": "claygent-prompt-generator",
+          "name": "Claygent prompt generator",
+          "line": "Writes Clay research prompts in the order that keeps the cost per row low."
+        },
+        {
+          "slug": "claygent-builder",
+          "name": "Claygent builder",
+          "line": "Builds a Clay research agent, tests it, and improves it until the output is good enough to trust."
+        },
+        {
+          "slug": "gtm-ai-brief",
+          "name": "GTM AI brief",
+          "line": "Turns a task you keep doing by hand into a written brief an AI can run, tested before it ships."
+        },
+        {
+          "slug": "playbook-generator",
+          "name": "Playbook generator",
+          "line": "One company domain in, a full outbound playbook out: pain segments, data sources and messages.",
+          "credit": "Method by Jordan Crawford, Blueprint GTM"
+        }
+      ]
+    },
+    {
+      "id": "growth-and-moat",
+      "name": "Growth and moat",
+      "line": "Scale the motion, measure it, and defend it.",
+      "skills": [
+        {
+          "slug": "outcome-seller-scoring",
+          "name": "Outcome seller scoring",
+          "line": "Scores recorded calls per rep on SPICED, then simulates what closing the coaching gap is worth in revenue.",
+          "credit": "Built on Winning by Design's SPICED and Outcome Seller webinar"
+        },
+        {
+          "slug": "compound-growth-check",
+          "name": "Compound growth check",
+          "line": "Takes six or more quarters of revenue and tells you whether growth is compounding or decaying.",
+          "credit": "Growth states from Winning by Design"
+        },
+        {
+          "slug": "ai-use-case-gate",
+          "name": "AI use case gate",
+          "line": "A go or no-go check for an AI idea before anyone builds it."
+        },
+        {
+          "slug": "epistemic-context-grounding",
+          "name": "Epistemic context grounding",
+          "line": "Makes the AI check what is actually known before it designs a solution.",
+          "credit": "By Jacob Dietle, MIT licence"
+        },
+        {
+          "slug": "context-gap-analysis",
+          "name": "Context gap analysis",
+          "line": "Lists what the AI needs to know, checks what exists, and finds the simplest way forward.",
+          "credit": "By Jacob Dietle, MIT licence"
+        }
+      ]
+    },
+    {
+      "id": "clay-prompts",
+      "name": "Clay prompts",
+      "line": "Small research and scoring prompts for Clay columns and Claygent. One job each.",
+      "skills": [
+        {
+          "slug": "prompt-engineering-rules",
+          "name": "Prompt engineering rules",
+          "line": "Five rules for enrichment prompts that stay cheap and reliable at volume.",
+          "credit": "Rules taught by Eric Nowoslawski, Growth Engine X"
+        },
+        {
+          "slug": "metaprompter",
+          "name": "Metaprompter",
+          "line": "Asks the AI what context, examples and edge cases a prompt is missing, then rewrites it.",
+          "credit": "Technique taught by Eric Nowoslawski, Growth Engine X"
+        },
+        {
+          "slug": "b2b-or-b2c",
+          "name": "B2B or B2C",
+          "line": "Classifies a company as B2B, B2C or both, and suggests the tone to match."
+        },
+        {
+          "slug": "saas-identification",
+          "name": "SaaS identification",
+          "line": "Decides whether a company is SaaS, and what that means for the message."
+        },
+        {
+          "slug": "company-mission",
+          "name": "Company mission",
+          "line": "Pulls a one-sentence mission from a company's LinkedIn or About page."
+        },
+        {
+          "slug": "company-goals",
+          "name": "Company goals",
+          "line": "Reads a company's open jobs and infers what it is trying to do this year."
+        },
+        {
+          "slug": "ideal-customer-profiles",
+          "name": "Ideal customer profiles",
+          "line": "Finds the buyers, users and industries a company serves, from its public content."
+        },
+        {
+          "slug": "pricing-strategy",
+          "name": "Pricing strategy",
+          "line": "Pulls a company's pricing model, tiers and sales motion from its pricing page."
+        },
+        {
+          "slug": "recent-news",
+          "name": "Recent news",
+          "line": "Finds a company's most relevant recent news and turns it into outreach angles."
+        },
+        {
+          "slug": "glassdoor-rating",
+          "name": "Glassdoor rating",
+          "line": "Finds and reads a company's Glassdoor rating, and says when it is safe to mention."
+        },
+        {
+          "slug": "data-point-research",
+          "name": "Data point research",
+          "line": "Designs fit signals that data providers do not sell, with a prompt to detect each one.",
+          "credit": "\"Build data you can't buy\" by Petra Hajal"
+        },
+        {
+          "slug": "plg-company-detection",
+          "name": "PLG company detection",
+          "line": "Detects whether a company is product-led: freemium, free trial, hybrid or sales-led.",
+          "credit": "Approach by Petra Hajal"
+        },
+        {
+          "slug": "multi-product-detection",
+          "name": "Multi-product detection",
+          "line": "Detects whether a company sells one product, several, or a suite.",
+          "credit": "Approach by Petra Hajal"
+        },
+        {
+          "slug": "product-complexity-detection",
+          "name": "Product complexity detection",
+          "line": "Rates how complex a company's product is, from docs, reviews, jobs and pricing.",
+          "credit": "Approach by Petra Hajal"
+        },
+        {
+          "slug": "pain-qualified-segment",
+          "name": "Pain-qualified segment",
+          "line": "Defines a segment by two to five signals that show active pain, not only company size.",
+          "credit": "Concept by Jordan Crawford, Blueprint GTM"
+        },
+        {
+          "slug": "list-is-the-message",
+          "name": "List is the message",
+          "line": "Builds a list around one detectable tension, so the message follows from why each lead is on it.",
+          "credit": "Idea by Jordan Crawford, Blueprint GTM"
+        },
+        {
+          "slug": "customer-evidence-first",
+          "name": "Customer evidence first",
+          "line": "Builds positioning from the real reasons won customers bought, not from features.",
+          "credit": "Idea by Jordan Crawford, Blueprint GTM"
+        },
+        {
+          "slug": "permissionless-value-proposition",
+          "name": "Permissionless value proposition",
+          "line": "Writes outreach that gives a useful insight from public data before it asks for anything.",
+          "credit": "Concept by Jordan Crawford, Blueprint GTM"
+        },
+        {
+          "slug": "lead-scoring",
+          "name": "Lead scoring",
+          "line": "Designs a lead score from fit, intent and custom signals, with point tables and action tiers."
+        },
+        {
+          "slug": "icp-scoring-dynamic",
+          "name": "Dynamic ICP scoring",
+          "line": "Builds a weighted ICP score from enriched data that returns JSON with hot, warm and nurture tiers.",
+          "credit": "Approach by Patrick Spychalski, The Kiln"
+        },
+        {
+          "slug": "clean-job-titles",
+          "name": "Clean job titles",
+          "line": "Turns long LinkedIn job titles into clean titles with seniority and function."
+        },
+        {
+          "slug": "role-focus",
+          "name": "Role focus",
+          "line": "Describes what a job title usually cares about: metrics, pains and authority."
+        },
+        {
+          "slug": "linkedin-posts-summary",
+          "name": "LinkedIn posts summary",
+          "line": "Sums up a prospect's recent LinkedIn posts into themes and hooks you can use."
+        },
+        {
+          "slug": "email-subject-line",
+          "name": "Email subject line",
+          "line": "Writes three personal subject lines under eight words from prospect research."
+        },
+        {
+          "slug": "email-opening-line",
+          "name": "Email opening line",
+          "line": "Writes a personal first line that continues from the subject line."
+        },
+        {
+          "slug": "playbook-pitch-generation",
+          "name": "Playbook pitch generation",
+          "line": "Generates a pitch per account: angle, hook, proof point, objection and next step.",
+          "credit": "Approach by Patrick Spychalski, The Kiln"
+        }
+      ]
+    }
+  ],
+  "others": [
+    {
+      "name": "GTM workspace skills",
+      "by": "Elias Stråvik",
+      "count": "7 skills",
+      "line": "One git-backed workspace for your company facts, ICPs and personas, plus saved workflows that run locally or on Vercel.",
+      "url": "https://github.com/eliasstravik/gtm-skills"
+    },
+    {
+      "name": "Call and pipeline audits",
+      "by": "Zime",
+      "count": "41 skills",
+      "line": "One sales call transcript or CRM export in, one audit out, with a quote behind every finding. Covers MEDDICC, BANT, SPICED-style discovery, deal risk and pipeline stage checks.",
+      "url": "https://github.com/zime-ai/zime-gtm-skills"
+    },
+    {
+      "name": "Cold outbound",
+      "by": "Growth Engine X",
+      "count": "31 skills",
+      "line": "Eric Nowoslawski's team on domain setup, list building, deliverability and cold email copy.",
+      "url": "https://github.com/growthenginenowoslawski/coldoutboundskills"
+    },
+    {
+      "name": "Clay agent plugins",
+      "by": "Clay",
+      "count": "Official",
+      "line": "Clay's own skills for tables, workflows, audiences and searches, plus skills from Clay's community.",
+      "url": "https://github.com/clay-run/agent-plugins"
+    },
+    {
+      "name": "Clay tables from code",
+      "by": "Leszek Lammel",
+      "count": "9 skills",
+      "line": "Rex: design a Clay table as a file, import it, and check what it will cost before it runs. Unofficial, not made by Clay.",
+      "url": "https://github.com/leszek-lammel-advisory/rex"
+    },
+    {
+      "name": "GTM engineering skills",
+      "by": "Deepline",
+      "count": "15 skills",
+      "line": "Prospecting, enrichment, scoring and plays that run against a data warehouse.",
+      "url": "https://github.com/getaero-io/gtm-eng-skills"
+    },
+    {
+      "name": "Revenue orchestration",
+      "by": "Cargo",
+      "count": "9 skills",
+      "line": "Skills for building and running go-to-market workflows in Cargo.",
+      "url": "https://github.com/getcargohq/cargo-skills"
+    },
+    {
+      "name": "Context OS quickstart",
+      "by": "Jacob Dietle",
+      "count": "Starter kit",
+      "line": "A starter for a knowledge system your AI builds on over time. Two of his skills ship in our repo, with credit.",
+      "url": "https://github.com/jacob-dietle/gtm-context-os-quickstart"
+    },
+    {
+      "name": "Open Source GTM directory",
+      "by": "Elias Stråvik",
+      "count": "Directory",
+      "line": "A community list of public repos for GTM teams: products, agent skills, libraries, templates and learning material.",
+      "url": "https://github.com/eliasstravik/open-source-gtm"
+    }
+  ]
+}

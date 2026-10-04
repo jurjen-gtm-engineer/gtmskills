@@ -1,0 +1,23 @@
+{
+  "name": "Example: 3,000 logistics companies, three tiers (fictional)",
+  "currency": "EUR",
+  "new_accounts_per_month": 75,
+  "field_gate": 250,
+  "tiers": [
+    {"name": "Tier 1", "accounts": 300, "titles_per_account": 5},
+    {"name": "Tier 2", "accounts": 900, "titles_per_account": 2},
+    {"name": "Tier 3", "accounts": 1800, "titles_per_account": 1}
+  ],
+  "fields": [
+    {"name": "Registry and website basics", "object": "company", "band": "free", "unit_cost_low": 0, "unit_cost_high": 0},
+    {"name": "Company enrichment", "object": "company", "band": "cheap_deterministic", "unit_cost_low": 0.01, "unit_cost_high": 0.03, "coverage": 0.95, "refreshes_per_year": 2},
+    {"name": "AI research on the website", "object": "company", "band": "llm_research", "unit_cost_low": 0.01, "unit_cost_high": 0.05, "tiers": ["Tier 1", "Tier 2"]},
+    {"name": "Contact sourcing", "object": "contact", "band": "cheap_deterministic", "unit_cost_low": 0.005, "unit_cost_high": 0.02},
+    {"name": "Verified work email", "object": "contact", "band": "contact_email", "unit_cost_low": 0.03, "unit_cost_high": 0.10, "coverage": 0.8},
+    {"name": "Mobile number", "object": "contact", "band": "premium", "unit_cost_low": 0.15, "unit_cost_high": 0.45, "coverage": 0.5, "tiers": ["Tier 1"], "cheaper_alternative": "Switchboard number from the registry; mobile only for Tier 1 because the caller team works that tier by phone"}
+  ],
+  "subscriptions": [
+    {"name": "Contact data provider", "monthly": 99},
+    {"name": "Sequencer", "monthly": 97}
+  ]
+}

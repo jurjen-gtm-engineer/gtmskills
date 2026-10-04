@@ -1,0 +1,413 @@
+{
+  "n_runs": 50000,
+  "seed": 42,
+  "config": "examples/sim_config_measured.json",
+  "team_baseline": {
+    "mean": 45371.72812235226,
+    "pct_10": 33256.16344735487,
+    "pct_50": 44333.778053056674,
+    "pct_90": 58824.48010997654,
+    "floor_90pct_of_runs_clear": 33256.16344735487,
+    "upside_10pct_of_runs_exceed": 58824.48010997654,
+    "skew": 0.5427403057925146,
+    "mass_on_the_left": true
+  },
+  "sensitivity": {
+    "global_spearman": {
+      "opps_per_month": 0.6543,
+      "win_rate": 0.6433,
+      "discount_rate": -0.2431,
+      "disqualification_rate": -0.2028,
+      "acv": 0.1628
+    },
+    "excluded": {
+      "sales_cycle_days": 0.0065
+    },
+    "oat_swing_eur": {
+      "opps_per_month": 29700.0,
+      "win_rate": 29040.0,
+      "discount_rate": 10560.0,
+      "disqualification_rate": 8910.0,
+      "acv": 7200.0
+    },
+    "relative_spread_cv": {
+      "opps_per_month": 0.1438,
+      "disqualification_rate": 0.1781,
+      "win_rate": 0.1419,
+      "acv": 0.0372,
+      "discount_rate": 0.1632,
+      "sales_cycle_days": 0.1366
+    },
+    "agree": false,
+    "note": "Every term in the revenue identity is multiplicative, so this ranking is driven by each metric's RELATIVE spread (see relative_spread_cv). Guessed ranges produce a confident garbage ranking. sales_cycle_days is excluded: it is not in the monthly identity and acts only through the coverage bridge on opportunity volume."
+  },
+  "baseline_coverage": {
+    "impact": 0.2044,
+    "decision": 0.0418,
+    "critical_event": 0.277
+  },
+  "per_rep": {
+    "Rep A": {
+      "mean": 22536.27628220188,
+      "pct_10": 16494.724532176948,
+      "pct_50": 21963.54188318935,
+      "pct_90": 29360.853296276673,
+      "floor_90pct_of_runs_clear": 16494.724532176948,
+      "upside_10pct_of_runs_exceed": 29360.853296276673,
+      "skew": 0.6083935438313672,
+      "mass_on_the_left": true,
+      "bridge_multipliers": {
+        "acv": 0.9101,
+        "win_rate": 0.9935,
+        "sales_cycle_days": 1.0582,
+        "opps_per_month": 0.945
+      },
+      "coverage": {
+        "impact": 0.0,
+        "decision": 0.0,
+        "critical_event": 0.0
+      }
+    },
+    "Rep B": {
+      "mean": 26468.087679389504,
+      "pct_10": 19463.62486796814,
+      "pct_50": 25813.227189456276,
+      "pct_90": 34354.7938803074,
+      "floor_90pct_of_runs_clear": 19463.62486796814,
+      "upside_10pct_of_runs_exceed": 34354.7938803074,
+      "skew": 0.5963517705741525,
+      "mass_on_the_left": true,
+      "bridge_multipliers": {
+        "acv": 0.9101,
+        "win_rate": 0.9935,
+        "sales_cycle_days": 1.0582,
+        "opps_per_month": 0.945
+      },
+      "coverage": {
+        "impact": 0.0,
+        "decision": 0.0,
+        "critical_event": 0.0
+      }
+    },
+    "Rep C": {
+      "mean": 31207.23516010506,
+      "pct_10": 22991.70030877594,
+      "pct_50": 30476.562787982504,
+      "pct_90": 40396.06189578639,
+      "floor_90pct_of_runs_clear": 22991.70030877594,
+      "upside_10pct_of_runs_exceed": 40396.06189578639,
+      "skew": 0.573170757963016,
+      "mass_on_the_left": true,
+      "bridge_multipliers": {
+        "acv": 0.9101,
+        "win_rate": 0.9935,
+        "sales_cycle_days": 1.0348,
+        "opps_per_month": 0.9664
+      },
+      "coverage": {
+        "impact": 0.0,
+        "decision": 0.0,
+        "critical_event": 0.1111
+      }
+    },
+    "Rep D": {
+      "mean": 37588.90675036816,
+      "pct_10": 27798.74590570366,
+      "pct_50": 36753.394684717365,
+      "pct_90": 48612.025926786926,
+      "floor_90pct_of_runs_clear": 27798.74590570366,
+      "upside_10pct_of_runs_exceed": 48612.025926786926,
+      "skew": 0.5571747089211989,
+      "mass_on_the_left": true,
+      "bridge_multipliers": {
+        "acv": 0.973,
+        "win_rate": 0.9935,
+        "sales_cycle_days": 0.9982,
+        "opps_per_month": 1.0018
+      },
+      "coverage": {
+        "impact": 0.1429,
+        "decision": 0.0,
+        "critical_event": 0.2857
+      }
+    },
+    "Rep E": {
+      "mean": 42427.27982908815,
+      "pct_10": 31303.236883000245,
+      "pct_50": 41550.006509040075,
+      "pct_90": 54836.029259456016,
+      "floor_90pct_of_runs_clear": 31303.236883000245,
+      "upside_10pct_of_runs_exceed": 54836.029259456016,
+      "skew": 0.5415448240123757,
+      "mass_on_the_left": true,
+      "bridge_multipliers": {
+        "acv": 0.9501,
+        "win_rate": 0.9935,
+        "sales_cycle_days": 0.9818,
+        "opps_per_month": 1.0185
+      },
+      "coverage": {
+        "impact": 0.0909,
+        "decision": 0.0,
+        "critical_event": 0.3636
+      }
+    },
+    "Rep F": {
+      "mean": 44021.049660346034,
+      "pct_10": 32396.400914855818,
+      "pct_50": 43219.7771286331,
+      "pct_90": 56776.9182593178,
+      "floor_90pct_of_runs_clear": 32396.400914855818,
+      "upside_10pct_of_runs_exceed": 56776.9182593178,
+      "skew": 0.4630703361296744,
+      "mass_on_the_left": true,
+      "bridge_multipliers": {
+        "acv": 0.959,
+        "win_rate": 1.0107,
+        "sales_cycle_days": 1.0582,
+        "opps_per_month": 0.945
+      },
+      "coverage": {
+        "impact": 0.1111,
+        "decision": 0.1111,
+        "critical_event": 0.0
+      }
+    },
+    "Rep G": {
+      "mean": 52891.91527235785,
+      "pct_10": 39080.53432820278,
+      "pct_50": 51932.65489004113,
+      "pct_90": 68075.50259438703,
+      "floor_90pct_of_runs_clear": 39080.53432820278,
+      "upside_10pct_of_runs_exceed": 68075.50259438703,
+      "skew": 0.46166367488586885,
+      "mass_on_the_left": true,
+      "bridge_multipliers": {
+        "acv": 1.0421,
+        "win_rate": 0.9935,
+        "sales_cycle_days": 0.9952,
+        "opps_per_month": 1.0048
+      },
+      "coverage": {
+        "impact": 0.3,
+        "decision": 0.0,
+        "critical_event": 0.3
+      }
+    },
+    "Rep H": {
+      "mean": 57646.823460087224,
+      "pct_10": 42494.684045316615,
+      "pct_50": 56677.30338555295,
+      "pct_90": 74140.62170448583,
+      "floor_90pct_of_runs_clear": 42494.684045316615,
+      "upside_10pct_of_runs_exceed": 74140.62170448583,
+      "skew": 0.4264413475458341,
+      "mass_on_the_left": true,
+      "bridge_multipliers": {
+        "acv": 1.0201,
+        "win_rate": 0.9935,
+        "sales_cycle_days": 0.9882,
+        "opps_per_month": 1.0119
+      },
+      "coverage": {
+        "impact": 0.25,
+        "decision": 0.0,
+        "critical_event": 0.3333
+      }
+    },
+    "Rep I": {
+      "mean": 61763.566653315545,
+      "pct_10": 45562.44750798598,
+      "pct_50": 60734.348117360554,
+      "pct_90": 79502.00947573385,
+      "floor_90pct_of_runs_clear": 45562.44750798598,
+      "upside_10pct_of_runs_exceed": 79502.00947573385,
+      "skew": 0.4091981537355509,
+      "mass_on_the_left": true,
+      "bridge_multipliers": {
+        "acv": 0.9501,
+        "win_rate": 1.0076,
+        "sales_cycle_days": 0.9818,
+        "opps_per_month": 1.0185
+      },
+      "coverage": {
+        "impact": 0.0909,
+        "decision": 0.0909,
+        "critical_event": 0.3636
+      }
+    },
+    "Rep J": {
+      "mean": 73043.84258310268,
+      "pct_10": 53692.44102267447,
+      "pct_50": 71969.56098618137,
+      "pct_90": 93977.51883751298,
+      "floor_90pct_of_runs_clear": 53692.44102267447,
+      "upside_10pct_of_runs_exceed": 93977.51883751298,
+      "skew": 0.38476969267435596,
+      "mass_on_the_left": true,
+      "bridge_multipliers": {
+        "acv": 1.1154,
+        "win_rate": 1.0142,
+        "sales_cycle_days": 0.9602,
+        "opps_per_month": 1.0414
+      },
+      "coverage": {
+        "impact": 0.4667,
+        "decision": 0.1333,
+        "critical_event": 0.4667
+      }
+    },
+    "Rep K": {
+      "mean": 79834.06640769118,
+      "pct_10": 58451.45238331802,
+      "pct_50": 78694.71880587074,
+      "pct_90": 102868.01810453543,
+      "floor_90pct_of_runs_clear": 58451.45238331802,
+      "upside_10pct_of_runs_exceed": 102868.01810453543,
+      "skew": 0.3614235173729835,
+      "mass_on_the_left": true,
+      "bridge_multipliers": {
+        "acv": 1.1301,
+        "win_rate": 1.0194,
+        "sales_cycle_days": 0.9532,
+        "opps_per_month": 1.0491
+      },
+      "coverage": {
+        "impact": 0.5,
+        "decision": 0.1667,
+        "critical_event": 0.5
+      }
+    },
+    "Rep L": {
+      "mean": 86939.23095316609,
+      "pct_10": 63542.26927859074,
+      "pct_50": 85691.6888588201,
+      "pct_90": 112023.65053103495,
+      "floor_90pct_of_runs_clear": 63542.26927859074,
+      "upside_10pct_of_runs_exceed": 112023.65053103495,
+      "skew": 0.372082257021432,
+      "mass_on_the_left": true,
+      "bridge_multipliers": {
+        "acv": 1.1301,
+        "win_rate": 0.9935,
+        "sales_cycle_days": 0.9322,
+        "opps_per_month": 1.0727
+      },
+      "coverage": {
+        "impact": 0.5,
+        "decision": 0.0,
+        "critical_event": 0.6
+      }
+    }
+  },
+  "cohorts": {
+    "members": {
+      "top": [
+        "Rep L",
+        "Rep K",
+        "Rep J",
+        "Rep I"
+      ],
+      "middle": [
+        "Rep H",
+        "Rep G",
+        "Rep F",
+        "Rep E"
+      ],
+      "low": [
+        "Rep D",
+        "Rep C",
+        "Rep B",
+        "Rep A"
+      ]
+    },
+    "actual_p50": {
+      "top": 74272.58,
+      "middle": 48344.94,
+      "low": 28751.68
+    },
+    "ladder_expected": {
+      "top": 74272.58,
+      "middle": 59418.06,
+      "low": 47534.45
+    },
+    "gap_vs_ladder": {
+      "top": 0.0,
+      "middle": -11073.13,
+      "low": -18782.77
+    },
+    "operating_at": {
+      "top": 1.0,
+      "middle": 0.8136,
+      "low": 0.6049
+    },
+    "basis": "measured",
+    "note": "The 80% ladder is a WbD heuristic, presented as historically true and not derived. Treat a gap as a flag to investigate, not a target to manage to.",
+    "warning": null
+  },
+  "scenario": {
+    "name": "middle_to_top",
+    "movers": [
+      "Rep H",
+      "Rep G",
+      "Rep F",
+      "Rep E"
+    ],
+    "target_coverage": {
+      "impact": 0.3894,
+      "decision": 0.0977,
+      "critical_event": 0.4826
+    },
+    "variants": {
+      "full_lift": {
+        "monthly_p50_now": 193238.6,
+        "monthly_p50_after": 209429.35,
+        "monthly_delta": 16190.75,
+        "annualised_delta": 194288.96,
+        "per_rep": {
+          "Rep H": {
+            "p50_now": 56623.49,
+            "p50_then": 60068.19
+          },
+          "Rep G": {
+            "p50_now": 51883.22,
+            "p50_then": 54924.18
+          },
+          "Rep F": {
+            "p50_now": 43215.67,
+            "p50_then": 49691.84
+          },
+          "Rep E": {
+            "p50_now": 41516.22,
+            "p50_then": 44745.14
+          }
+        }
+      },
+      "conservative_half_lift": {
+        "monthly_p50_now": 193663.01,
+        "monthly_p50_after": 201690.46,
+        "monthly_delta": 8027.45,
+        "annualised_delta": 96329.42,
+        "per_rep": {
+          "Rep H": {
+            "p50_now": 56029.35,
+            "p50_then": 57806.04
+          },
+          "Rep G": {
+            "p50_now": 51420.21,
+            "p50_then": 52908.18
+          },
+          "Rep F": {
+            "p50_now": 44680.49,
+            "p50_then": 47894.97
+          },
+          "Rep E": {
+            "p50_now": 41532.95,
+            "p50_then": 43081.28
+          }
+        }
+      }
+    },
+    "caveat": "The coverage-to-metric bridge is OUR inference. WbD measure the lift binary and per call; applying it as a linear scaler on a coverage rate is an extrapolation. Report the range between full_lift and conservative_half_lift. If the coaching case only survives at full lift, it does not survive."
+  }
+}

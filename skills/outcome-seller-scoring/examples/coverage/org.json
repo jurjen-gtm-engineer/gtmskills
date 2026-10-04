@@ -1,0 +1,114 @@
+{
+  "n_calls": 137,
+  "scored": {
+    "situation": {
+      "covered": 121,
+      "denominator": 137,
+      "coverage": 0.8832,
+      "ci95": [
+        0.8187,
+        0.9268
+      ],
+      "mastery_rate": 0.5766,
+      "qualified_rate": 0.5766,
+      "qualified_denominator": 137,
+      "wbd_benchmark": null,
+      "lift_when_present": null
+    },
+    "pain": {
+      "covered": 94,
+      "denominator": 137,
+      "coverage": 0.6861,
+      "ci95": [
+        0.6042,
+        0.7579
+      ],
+      "mastery_rate": 0.4745,
+      "qualified_rate": 0.4745,
+      "qualified_denominator": 137,
+      "wbd_benchmark": null,
+      "lift_when_present": null
+    },
+    "impact": {
+      "covered": 29,
+      "denominator": 137,
+      "coverage": 0.2117,
+      "ci95": [
+        0.1516,
+        0.2875
+      ],
+      "mastery_rate": 0.1825,
+      "qualified_rate": 0.1825,
+      "qualified_denominator": 137,
+      "wbd_benchmark": 0.206,
+      "lift_when_present": "+44% revenue per account"
+    },
+    "critical_event": {
+      "covered": 39,
+      "denominator": 137,
+      "coverage": 0.2847,
+      "ci95": [
+        0.2158,
+        0.3653
+      ],
+      "mastery_rate": 0.2044,
+      "qualified_rate": 0.2044,
+      "qualified_denominator": 137,
+      "wbd_benchmark": 0.217,
+      "lift_when_present": "21% shorter cycle (66d to 52d)"
+    },
+    "decision": {
+      "covered": 6,
+      "denominator": 137,
+      "coverage": 0.0438,
+      "ci95": [
+        0.0202,
+        0.0923
+      ],
+      "mastery_rate": 0.0219,
+      "qualified_rate": 0.0219,
+      "qualified_denominator": 137,
+      "wbd_benchmark": 0.068,
+      "lift_when_present": "+15.5% win rate"
+    }
+  },
+  "moves": {
+    "second_question": {
+      "observed": 29,
+      "denominator": 137,
+      "rate": 0.2117,
+      "ci95": [
+        0.1516,
+        0.2875
+      ]
+    },
+    "customer_supplied_number": {
+      "observed": 25,
+      "denominator": 137,
+      "rate": 0.1825,
+      "ci95": [
+        0.1268,
+        0.2555
+      ]
+    },
+    "what_breaks": {
+      "observed": 28,
+      "denominator": 137,
+      "rate": 0.2044,
+      "ci95": [
+        0.1454,
+        0.2795
+      ]
+    },
+    "demo_pivot": {
+      "observed": 59,
+      "denominator": 137,
+      "rate": 0.4307,
+      "ci95": [
+        0.3507,
+        0.5143
+      ]
+    }
+  },
+  "validation_failures": 0
+}
